@@ -1,0 +1,74 @@
+{
+"13-days": {
+	"title": "13 days",
+	"date": "Fri Sep 13 16:36:00 EDT 2013"
+},
+"cookieclicker": {
+	"title": "Cookie Clicker",
+	"date": "Sun Sep 15 12:24:00 EDT 2013"
+},
+"terribleday": {
+	"title": "terrible day",
+	"date": "Sun Sep 29 20:34:47 EDT 2013"
+},
+"goodday": {
+	"title": "good day",
+	"date": "Mon Sep 30 22:09:38 EDT 2013"
+},
+"av": {
+	"title": "AntiVirus",
+	"date": "Mon Oct  7 22:02:33 EDT 2013"
+},
+"lildebi": {
+	"title": "Lil' Debi",
+	"date": "Tue Oct  8 22:55:48 EDT 2013"
+},
+"debianonandroid": {
+	"title": "Debian on Android",
+	"date": "Wed Oct  9 23:12:02 EDT 2013"
+},
+"proxmox": {
+	"title": "Proxmox and Cryptoparty",
+	"date": "Thu Oct 10 23:18:08 EDT 2013"
+},
+"gravity": {
+	"title": "Gravity",
+	"date": "Sun Oct 13 01:10:21 EDT 2013"
+},
+"windowslicensing": {
+	"title": "Windows Licensing",
+	"date": "Mon Oct 14 22:43:09 EDT 2013"
+},
+"libvirt": {
+	"title": "Libvirt",
+	"date": "Tue Oct 15 20:47:43 EDT 2013"
+}, 
+"androidtoys" : {
+	"title": "Android Toys", 
+	"date": "Wed Oct 16 16:54:00 EDT 2013" 
+}, 
+"openstackmeetup": {
+	"title": "Openstack Meetup", 
+	"date": "Thu Oct 17 20:51:20 EDT 2013"
+},
+"raspbmc": {
+	"title": "Raspbmc",
+	"date": "Fri Oct 18 23:54:21 EDT 2013"
+},
+"beef": {
+	"title": "BeEF",
+	"date": "Sat Oct 19 21:57:27 EDT 2013"
+},
+"appliances": {
+	"title": "Appliances",
+	"date": "Sun Oct 20 22:34:25 EDT 2013"
+},
+"alerting": {
+	"title": "Alerting",
+	"date": "Wed Oct 23 22:43:02 EDT 2013"
+}, 
+"preseed ": {
+	"title": "Preseed files", 
+	"date": "Thu Oct 24 19:07:00 EDT 2013" 
+}
+}
