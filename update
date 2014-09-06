@@ -1,0 +1,14 @@
+#!/bin/sh
+set -ue
+
+sed -i "s_blog.*_$(find blog -type f | sort -rn | head -n 1)\)_" index.md
+
+find blog -mindepth 2 -type d | while read amonth; do
+	(
+	cd "$amonth"
+	echo "Updating $amonth"
+	grep -H '####' *.md | awk '{print $3 ":" $1}' | sort -n| awk -F: '{print $2}' | while read afile; do 
+		echo "[preview:3](/$amonth/$afile)"
+	done > index.md
+	)
+done
