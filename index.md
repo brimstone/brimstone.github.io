@@ -1,7 +1,7 @@
 Blog
 ----
 
-[preview:3](/blog/2013/10/preseed.md)
+[preview:3](/blog/2014/09/startingback.md)
 
 Projects
 --------
