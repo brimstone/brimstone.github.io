@@ -1,12 +1,12 @@
 Blog
 ----
 
-[preview:3](blog/preseed.md)
+[preview:3](/blog/2013/10/preseed.md)
 
 Projects
 --------
 
-[preview:3](projects/infovent.md)
+[preview:3](/projects/infovent/index.md)
 
 Fork me
 -------
