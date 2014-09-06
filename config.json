@@ -1,5 +1,5 @@
 {
-    "useSideMenu": true,
+    "useSideMenu": false,
     "lineBreaks": "gfm",
     "additionalFooterText": "",
     "anchorCharacter": "&#x2693;",
