@@ -11,4 +11,4 @@
 [preview:3](/blog/2013/10/beef.md)
 [preview:3](/blog/2013/10/appliances.md)
 [preview:3](/blog/2013/10/alerting.md)
-[preview:3](/blog/2013/10/preseed .md)
+[preview:3](/blog/2013/10/preseed.md)
