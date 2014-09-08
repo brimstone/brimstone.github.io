@@ -12,3 +12,13 @@ find blog -mindepth 2 -type d | while read amonth; do
 	done > index.md
 	)
 done
+
+find events -mindepth 2 -type d | while read amonth; do
+	(
+	cd "$amonth"
+	echo "Updating $amonth"
+	grep -H '####' *.md | awk '{print $3 ":" $1}' | sort -n| awk -F: '{print $2}' | while read afile; do 
+		echo "[preview:3](/$amonth/$afile)"
+	done > index.md
+	)
+done
