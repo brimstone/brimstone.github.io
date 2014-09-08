@@ -1,4 +1,4 @@
-# brimstone
+# Home
 
 [Projects]()
 
