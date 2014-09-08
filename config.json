@@ -1,7 +1,10 @@
 {
-    "useSideMenu": false,
-    "lineBreaks": "gfm",
-    "additionalFooterText": "",
-    "anchorCharacter": "&#x2693;",
-    "title": "brimstone's wiki"
+  "useSideMenu": false,
+  "noNavOn": [
+    "index.md"
+  ],
+  "lineBreaks": "gfm",
+  "additionalFooterText": "",
+  "anchorCharacter": "&#x2693;",
+  "title": "brimstone's wiki"
 }
