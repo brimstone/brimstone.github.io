@@ -1,7 +1,7 @@
 #!/bin/sh
 set -ue
 
-sed -i "s_preview](/blog.*_preview](/$(find blog -type f | sort -rn | head -n 1)\)_" index.md
+sed -i "s_preview:3](/blog.*_preview:3](/$(find blog -type f | sort -rn | head -n 1)\)_" index.md
 
 find blog -mindepth 2 -type d | while read amonth; do
 	(
