@@ -13,6 +13,6 @@
 
 [Events]()
 
-  * [Openstack Summit 2014](/events/2014/05/openstack.md)
-  
+  * [Openstack Summit](/events/events/2014/05/openstack.md)
+
 [gimmick:theme](readable)
