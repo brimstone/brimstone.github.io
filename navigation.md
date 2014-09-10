@@ -3,6 +3,7 @@
 [Projects]()
 
   * [Information Radiator](/projects/infovent/index.md)
+  * [Key/Value Store](/projects/kvstore/index.md)
 
 [Blog]()
 
