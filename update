@@ -44,7 +44,8 @@ echo "" >> navigation.md
 
 echo "[Events]()" >> navigation.md
 echo "" >> navigation.md
-find events -mindepth 2 -type d \
+cd events
+find * -mindepth 1 -type d \
 | while read amonth; do
 	(
 	cd "$amonth"
@@ -60,6 +61,7 @@ find events -mindepth 2 -type d \
 	done > index.md
 	)
 done
+cd ..
 echo "" >> navigation.md
 
 echo "[gimmick:theme](readable)" >> navigation.md
