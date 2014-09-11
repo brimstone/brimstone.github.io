@@ -57,7 +57,7 @@ find * -mindepth 1 -type d \
 	| while read afile; do 
 		title=$(head -n 1 "$afile")
 		echo "  * [$title](/events/$amonth/$afile)" >> ../../../navigation.md
-		echo "[preview:3](/$amonth/$afile)"
+		echo "[preview:3](/events/$amonth/$afile)"
 	done > index.md
 	)
 done
