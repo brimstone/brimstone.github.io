@@ -1,1 +1,1 @@
-[preview:3](/events/2014/05/openstack.md)
+[preview:3](/2014/05/openstack.md)

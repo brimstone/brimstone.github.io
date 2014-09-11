@@ -13,6 +13,7 @@
 
 [Events]()
 
-  * [Openstack Summit](/events/events/2014/05/openstack.md)
+  * [Openstack Summit](/events/2014/05/openstack.md)
+  * [Docker Meetup: Panamax](/events/2014/09/docker-panamax.md)
 
 [gimmick:theme](readable)
