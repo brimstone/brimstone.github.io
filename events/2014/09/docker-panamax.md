@@ -7,6 +7,7 @@ Docker Meetup: Panamax
  * Product of Centurylink
  * Uses Vagrant for now
  * Really wants to run on CoreOS
+ * Slides on [speakerdeck](https://speakerdeck.com/rupakg/atl-docker-meetup-showcasing-panamax)
 
 ```
 # still needs fleet and etcd
