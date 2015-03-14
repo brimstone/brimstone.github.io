@@ -2,7 +2,9 @@ Bsides Atlanta
 --------------
 ######Sat Mar 14 2015
 
-Advanced SIEM Optimization @reliaquest
+Advanced SIEM Optimization
+--------------------------
+@reliaquest
 - Security Incident & Event Management
 - Similar to IDS/IPS
 - Different than ELK somehow
@@ -24,6 +26,7 @@ Advanced SIEM Optimization @reliaquest
 - monitor unused ip address ranges
 
 Operationalizing Threat Intelligence
+------------------------------------
 - goes to cons to "maintain threat situatiinal awareness"
 - iso iso iso
 - more time documenting than anything else
@@ -34,16 +37,21 @@ Operationalizing Threat Intelligence
 - Do I need to stop normal patch policies to patch this vuln?
 
 Malware Infection Visualized
-- 
+----------------------------
+- sysmon 2.0+, carbon black
 
 Buy The Dip
+-----------
 - 
 
 Online, No One Knows You're Dead
+--------------------------------
 - 
 
 Hacking 802.15.4
+----------------
 - 
 
 The Art of Speaking with Muggles
+--------------------------------
 - 
