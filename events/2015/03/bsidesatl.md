@@ -22,3 +22,28 @@ Advanced SIEM Optimization @reliaquest
 - use commercial feeds as "bad data" and try to recreate an attack under your own control
 - know where your A records go
 - monitor unused ip address ranges
+
+Operationalizing Threat Intelligence
+- goes to cons to "maintain threat situatiinal awareness"
+- iso iso iso
+- more time documenting than anything else
+- policy
+- don't conflate Threat, Vulnerability, and Risk.
+- Threat * Probability * Business Impact = Risk
+- colors are important to management
+- Do I need to stop normal patch policies to patch this vuln?
+
+Malware Infection Visualized
+- 
+
+Buy The Dip
+- 
+
+Online, No One Knows You're Dead
+- 
+
+Hacking 802.15.4
+- 
+
+The Art of Speaking with Muggles
+- 
