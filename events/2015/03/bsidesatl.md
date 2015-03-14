@@ -39,10 +39,18 @@ Operationalizing Threat Intelligence
 Malware Infection Visualized
 ----------------------------
 - sysmon 2.0+, carbon black
+- these programs make neat graphs of what exes call which exes
+- sysmon is free, but carbon black runs on linux
+- google "googleupdate /ping"
 
 Buy The Dip
 -----------
-- 
+@dearestleader
+- compliance, no tech
+- very finance centered
+- wall street and consumers don't care about data breaches
+- buy more insurance
+- "people and creativity are your greatest assets"
 
 Online, No One Knows You're Dead
 --------------------------------
