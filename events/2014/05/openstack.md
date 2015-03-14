@@ -155,6 +155,4 @@ Recommends not chasing trunk, using one release back
 He's had best luck with packer, then clonehd | qemu-img convert
 He uses a lot of rundeck
 "Reprovision, don't repair. Servers are cattle, not pets. Don't chase unicorns"
-Use Tempest on your staging cloud. 
-
-
+Use Tempest on your staging cloud.
