@@ -54,12 +54,26 @@ Buy The Dip
 
 Online, No One Knows You're Dead
 --------------------------------
-- 
+- Defensive Security Podcast
+- need to make a paper copy of all personal assets
+- need to make sure there's at least someone else on everything
+- Google Inactive Account Manager
+- Recommemdations
+ - Legacy drawer (daveramsey.com)
+ - Switch roles for a month once a year
+ - Password/recovery keys
+ - Password Manager
+ - Life Insurance
+ - Store shared digital memories someplace shared
 
 Hacking 802.15.4
 ----------------
-- 
+- apimote wifi hacking board
+- packet in packet is kinda like vlan hopping
+- need to becareful with native vlan access
 
 The Art of Speaking with Muggles
 --------------------------------
+- southern fried security podcast
+- SBAR Situation Background Analyis Recommend
 - 
