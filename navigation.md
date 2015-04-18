@@ -16,6 +16,7 @@
 
   * [Openstack Summit](/events/2014/05/openstack.md)
   * [Docker Meetup: Panamax](/events/2014/09/docker-panamax.md)
+  * [Barcamp Birmingham](/events/2015/04/bhambarcamp.md)
   * [Bsides Atlanta](/events/2015/03/bsidesatl.md)
 
 [gimmick:theme](readable)

@@ -5,8 +5,8 @@ A place for my notes
 [preview:3](/blog/2014/09/startingback.md)
 </div><div class="col-md-4"><h2>[Projects](/projects/index.md)</h2><hr>
 [preview:3](/projects/infovent/index.md)
-</div><div class="col-md-4"><h2>[Events](/events/2014/05/index.md)</h2><hr>
-[preview:3](/events/2014/05/openstack.md)
+</div><div class="col-md-4"><h2>[Events](/events/2015/04/index.md)</h2><hr>
+[preview:3](/events/2015/04/bhambarcamp.md)
 </div></div>
 
 Fork me
