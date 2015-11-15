@@ -20,5 +20,6 @@
   * [DevOps Atlanta](/events/2015/04/devopsatl.md)
   * [Barcamp Birmingham](/events/2015/04/bhambarcamp.md)
   * [Bsides Atlanta](/events/2015/03/bsidesatl.md)
+  * [Preaknic 19](/events/2015/11/phreaknic19.md)
 
 [gimmick:theme](readable)
