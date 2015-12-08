@@ -1,0 +1,13 @@
+- 7 hour flight
+- broken luggage
+- 2 hour nap
+- crepes
+- coffee shop,  9/11 truthers
+- Finding John Snow pub, but no pump
+- Not getting run over
+- Doubledecker bus
+- Mother Mash, sweet potatoes
+- 24hr grocery story
+- house boats by St. Mary's canal
+- facetime Mom
+- repaired luggage
