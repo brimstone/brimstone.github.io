@@ -7,6 +7,7 @@
 We started our vacation with a 7 hour flight into Heathrow. Before we even checked in, I somehow managed to damage the two load bearing wheels on K's luggage. I think I did so by dragging my luggage on her rolling luggage. The combined weight of this was over 43K (94lbs). The remainder of the trip was uneventful. Upon landing we had to acquire Oyster cards since we left the ones we had prepurchased at home.
 
 ![](IMG_20151206_080108.jpg)
+
 *I added the London Underground to list of mass transit I've used.*
 
 After getting into our flat, we konked out for a much needed two hour nap since neither of us slept more than an hour on the flight over.
