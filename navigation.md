@@ -23,4 +23,8 @@
   * [Bsides Atlanta](/events/2015/03/bsidesatl.md)
   * [Preaknic 19](/events/2015/11/phreaknic19.md)
 
+[Trips]()
+
+  * [Europe 2015](trips/2015/Europe/12-06-London.md)
+
 [gimmick:theme](readable)

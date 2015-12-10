@@ -1,3 +1,7 @@
+12/09 London
+------------
+######Wed Dec  9
+
 - breakfast at the flat
 - Jumped on the wrong tube line going to the tower
 - Took a tour of the tower
@@ -16,9 +20,11 @@
 - M checked on the fort
 - Found Club Mate at Portobello Wholefoods, which is not a wholefoods like we think
 - Found stirfry at Tesco for £3!
-- K sipped glüvien while M investigated South London Makerspace
-- South Londn Makerspace
+- K sipped glühwein while M investigated South London Makerspace
+- South London Makerspace
   - Been around for a few years
   - This is their third space
   - Renting space under a railway arch
   - built out a quiet area, working on a dusty and dirty area
+
+[Day 3](12-08-London.md) - Day 4 - [Day 5](12-10-London.md)

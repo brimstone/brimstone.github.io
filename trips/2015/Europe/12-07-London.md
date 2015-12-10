@@ -1,3 +1,7 @@
+12/07 London
+------------
+######Mon Dec  7
+
 - 12hr of sleep
 - adventures in hot water
 - eggs, toast, and tea
@@ -22,3 +26,5 @@
 - The maze that is Harrods
 - gelato
 - hit out daily transit cap
+
+[Day 1](12-06-London.md) - Day 2 - [Day 3](12-08-London.md)
