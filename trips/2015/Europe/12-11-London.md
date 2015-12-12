@@ -18,6 +18,8 @@
 - Dinner around the corner at Bistro 1
   - price fixed
   - amazing lights
-- Play "The Mousetrap"  at St.  Martin's Theater
+- Play "The Mousetrap" at St.  Martin's Theater
+  -  twist ending!
+  
 
 [Day 5](12-10-London.md) - Day 6 - [Day 7](12-12-London.md)
