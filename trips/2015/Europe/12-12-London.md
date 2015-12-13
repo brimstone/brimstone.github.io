@@ -14,6 +14,7 @@
 - Lunch at The Perfectionist Café
 - Quick flight over to Berlin
 - Picked up by K's brother and nephew. 
-
+- Dinner of cheese or meat
+- Conversation and libations after the child went to bed
 
 [Day 6](12-11-London.md) - Day 7 - [Day 8](12-13-Berlin.md)
