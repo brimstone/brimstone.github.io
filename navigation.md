@@ -25,6 +25,6 @@
 
 [Trips]()
 
-  * [Europe 2015](trips/2015/Europe/12-06-London.md)
+  * [Europe 2015](trips/2015/Europe.md)
 
 [gimmick:theme](readable)
