@@ -14,6 +14,7 @@
 - We return to the party at K's sister's as everyone is just getting home for the day
 - We have some cake and tea while the youngest have a dinner of soup.
 - Laundry is started as we need to have everything washed before our week long excursion to Linstow
-
+- We met some of K's brother-in-law's friends for dinner at a nice but touristy French restaurant a few subway stops away. I had what amounted to a ham sammich covered in melted cheese. K had some growth organ from a calf. The whole city is unseasonably warm causing the restaurant to also be overly warm. After dinner we walked a bit to a "hipster bar." I had a dark beer and K had her usual gin & tonic.
+- We headed back to K's sister's, releave the babysitting grandfather and turn in for the night.
 
 [Day 11](12-16-Berlin.md) - Day 12 - [Day 13](12-18-Berlin.md)
