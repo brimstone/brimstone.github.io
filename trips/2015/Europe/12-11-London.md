@@ -2,13 +2,8 @@
 ------------
 ######Fri Dec 11
 
-- breakfast at the flat
-- K did data things
-- Dried laundry
-- M picked out Lunch and Dinner places
-- Tube ride had a show from Steve and Brian.
-- Lunch at Itsu, Fast Food Sushi
-- Scenic route around Westminster Square?
+Again we started with breakfast at the flat. K had to get some work done in the morning. I dried our laundry and picked out lunch and dinner places. On the tube ride to lunch, we got a show from Steve and Brian. Mass transit at home just doesn't have the same buskers as London and Berlin. Lunch was at Itsu, a fast food sushi place. While trying to find the entrance to our next tour, the Churchill War Rooms, we took a scenic tour around Westmister Square.
+
 - Toured the Churchill War Rooms
   - Audio tour
   - well more than 1.5 hours
