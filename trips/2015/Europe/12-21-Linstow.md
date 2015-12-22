@@ -10,5 +10,7 @@
 - Dinner at the buffet
 - I took the wifi router back to our place next door. It wasn't able to pick up the wifi provided by the resort.
 
+It rained fairly hard tonight.
+
 
 [Day 15](12-20-Linstow.md) - Day 16 - [Day 17](12-22-Linstow.md)
