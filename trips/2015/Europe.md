@@ -19,11 +19,11 @@ Berlin:
 - [Dec 17](Europe/12-17-Berlin.md)
 - [Dec 18](Europe/12-18-Berlin.md)
 - [Dec 19](Europe/12-19-Berlin.md)
+- [Dec 20](Europe/12-20-Berlin.md)
 
 Linstow:
 
 
-- [Dec 20](Europe/12-20-Linstow.md)
 - [Dec 21](Europe/12-21-Linstow.md)
 - [Dec 22](Europe/12-22-Linstow.md)
 - [Dec 23](Europe/12-23-Linstow.md)
