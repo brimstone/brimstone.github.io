@@ -2,7 +2,7 @@
 -------------
 ######Sun Dec  27
 
-I got up and jumped in the shower while K ran out to a le Crocetbag and got breakfast. We ate in the hotel room and then I headed out to the first day of [32c3](../../events/2015/12/32c3.md) while she mulled about the hotel, doing K like things.
+I got up and jumped in the shower while K ran out to a le Crocetbag and got breakfast. We ate in the hotel room and then I headed out to the first day of [32c3](../../../events/2015/12/32c3.md) while she mulled about the hotel, doing K like things.
 
 
 [Day 21](12-26-Linstow.md) - Day 22 - [Day 23](12-28-Hamburg.md)
