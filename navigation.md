@@ -18,13 +18,13 @@
   * [Openstack Summit](/events/2014/05/openstack.md)
   * [Docker Meetup: Panamax](/events/2014/09/docker-panamax.md)
   * [UX of Admin Interfaces](/events/2015/07/ux-admin.md)
+  * [Go/docker meetup](/events/2015/07/godocker.md)
   * [DevOps Atlanta](/events/2015/04/devopsatl.md)
   * [Barcamp Birmingham](/events/2015/04/bhambarcamp.md)
   * [Bsides Atlanta](/events/2015/03/bsidesatl.md)
+  * [32nd Chao Communication Congress](/events/2015/12/32c3.md)
+  * [32nd Chao Communication Congress](/events/2015/12/32c3.md)
+  * [32nd Chao Communication Congress](/events/2015/12/32c3.md)
   * [Preaknic 19](/events/2015/11/phreaknic19.md)
-
-[Trips]()
-
-  * [Europe 2015](trips/2015/Europe.md)
 
 [gimmick:theme](readable)
