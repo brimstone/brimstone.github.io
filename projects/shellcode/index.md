@@ -9,7 +9,7 @@ The main objective is to construct a simple (and I mean simple) webserver in she
 Step 1: Edit the shell code
 ---------------------------
 metasploit-framework/external/source/shellcode/windows/x86/src/single/single_koth_bind_tcp.asm:
-```asm
+```
 
 ;-----------------------------------------------------------------------------;
 ; Author: Stephen Fewer (stephen_fewer[at]harmonysecurity[dot]com)
