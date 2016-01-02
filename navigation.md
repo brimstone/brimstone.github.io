@@ -25,4 +25,8 @@
   * [Phreaknic 19](events/2015/11/phreaknic19.md)
   * [32nd Chaos Communication Congress](events/2015/12/32c3.md)
 
+[Trips]()
+
+  * [Europe 2015](trips/2015/Europe.md)
+
 [gimmick:theme](readable)

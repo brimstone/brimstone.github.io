@@ -66,4 +66,14 @@ done
 cd ..
 echo "" >> navigation.md
 
+echo "[Trips]()" >> navigation.md
+echo "" >> navigation.md
+find trips -maxdepth 2 -name '*.md' \
+| while read atrip; do
+	echo "Updating $atrip"
+	title=$(head -n 1 "$atrip")
+	echo "  * [$title]($atrip)" >> navigation.md
+done
+echo "" >> navigation.md
+
 echo "[gimmick:theme](readable)" >> navigation.md

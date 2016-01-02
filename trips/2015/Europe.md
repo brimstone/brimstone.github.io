@@ -1,3 +1,5 @@
+Europe 2015
+-----------
 My wife and I took December off. We flew to London for a week, then flew to Berlin for a week to catch up with her family. We drove out to Linstow for a big family Christmas, then caught a train out to Hamburg to catch [32c3](../../events/2015/12/32c3.md). We then trained back to Berlin for the new year. We finally flew back home 31 days after we left. My notes of our activities are here.
 
 London:
