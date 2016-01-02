@@ -1,12 +1,12 @@
 A place for my notes
 ====================
 
-<div class="row"><div class="col-md-4"><h2>[Blog](/blog/2014/09/index.md)</h2><hr>
-[preview:3](/blog/2014/09/startingback.md)
-</div><div class="col-md-4"><h2>[Projects](/projects/index.md)</h2><hr>
-[preview:3](/projects/infovent/index.md)
-</div><div class="col-md-4"><h2>[Events](/events/2015/04/index.md)</h2><hr>
-[preview:3](/events/2015/04/bhambarcamp.md)
+<div class="row"><div class="col-md-4"><h2>[Blog](blog/2014/09/index.md)</h2><hr>
+[preview:3](blog/2014/09/startingback.md)
+</div><div class="col-md-4"><h2>[Projects](projects/index.md)</h2><hr>
+[preview:3](projects/infovent/index.md)
+</div><div class="col-md-4"><h2>[Events](events/2015/12/index.md)</h2><hr>
+[preview:3](events/2015/12/32c3.md)
 </div></div>
 
 Fork me

@@ -5,7 +5,7 @@ currentblog=$(find blog -type f \
 | sort -rn \
 | head -n 1)
 
-sed -i "s_preview:3](/blog.*_preview:3](/$currentblog)_" index.md
+sed -i "s_preview:3](/blog.*_preview:3]($currentblog)_" index.md
 
 echo "# Home" > navigation.md
 echo "" >> navigation.md
@@ -15,7 +15,7 @@ echo "" >> navigation.md
 find projects -name index.md \
 | while read aproject; do
 	title=$(head -n 1 "$aproject")
-	echo "  * [$title](/$aproject)" >> navigation.md
+	echo "  * [$title]($aproject)" >> navigation.md
 done
 echo "" >> navigation.md
 
@@ -27,7 +27,7 @@ find * -mindepth 1 -type d \
 | while read amonth; do
 	(
 	month=$(date -d "$amonth/01" +"%B %Y")
-	echo "  * [$month](/blog/$amonth/index.md)" >> ../navigation.md
+	echo "  * [$month](blog/$amonth/index.md)" >> ../navigation.md
 	cd "$amonth"
 	echo "Updating $amonth"
 	grep -H '####' *.md \
@@ -35,7 +35,7 @@ find * -mindepth 1 -type d \
 	| sort -n \
 	| awk -F: '{print $2}' \
 	| while read afile; do 
-		echo "[preview:3](/blog/$amonth/$afile)"
+		echo "[preview:3](blog/$amonth/$afile)"
 	done > index.md
 	)
 done
@@ -46,6 +46,7 @@ echo "[Events]()" >> navigation.md
 echo "" >> navigation.md
 cd events
 find * -mindepth 1 -type d \
+| sort -n \
 | while read amonth; do
 	(
 	cd "$amonth"
@@ -54,10 +55,11 @@ find * -mindepth 1 -type d \
 	| awk '{print $3 ":" $1}' \
 	| sort -n \
 	| awk -F: '{print $2}' \
+	| uniq \
 	| while read afile; do 
 		title=$(head -n 1 "$afile")
-		echo "  * [$title](/events/$amonth/$afile)" >> ../../../navigation.md
-		echo "[preview:3](/events/$amonth/$afile)"
+		echo "  * [$title](events/$amonth/$afile)" >> ../../../navigation.md
+		echo "[preview:3](events/$amonth/$afile)"
 	done > index.md
 	)
 done
