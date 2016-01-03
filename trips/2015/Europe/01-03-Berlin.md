@@ -83,7 +83,7 @@ Dark Worlds tour
 - Mountains in Berln are min 20m high
 - this orga also does Berlin Underground Tours
 
-We returned to the appartment in the freezing cold weather. The parents of K's brother-in-law were there visiting before taking care of the kids for the next two days. K and here sister were dead set on making Neuejahreskuchen, kind of a small, very thin, crispy pancake, rolled into a cone. 
+We returned to the appartment in the freezing cold weather. The parents of K's brother-in-law were there visiting before taking care of the kids for the next two days. K and here sister were dead set on making Neuejahreskuchen, kind of a small, very thin, crispy pancake, rolled into a cone. We went out for coffee and cake at the Ampelmann Cafe with the friends from last night. K and I bought an Amplemann ornament and each a bottle opener. I'm going to drill a hole in mine to make it into a keychain. We went to dinner at Dudu 31, a Vietnamese/Japanese fusion place. We returned to the appartment, in the freezing cold weather. We hung out for a bit, catching up on our digital lives and I got to use my bottle opener. Did I mention it was cold outside today?
 
 
 [Day 28](01-02-Berlin.md) - Day 29 - [Day 30](01-04-Berlin.md)
