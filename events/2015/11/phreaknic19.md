@@ -4,8 +4,6 @@ Phreaknic 19
 
 
 Powershell
-----------
-
 - get-executionpolicy
 - set-executionpolicy RemoteSigned
 - $PSversionTable
@@ -17,3 +15,6 @@ Powershell
   - new-item
 - man get-item
 
+Sony Hack
+- initial emails from yopmail.com and spambog.ru
+- later emails also came from hushmail
