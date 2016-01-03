@@ -16,4 +16,4 @@
 - we came back and passed two loud and actually not bad acts in the Rosentalerplatz station.
 - We had one more beer at home and hung out, then went to bed at 1:30 again.
 
-[Day 13](12-18-Berlin.md) - Day 14 - [Day 15](12-20-Linstow.md)
+[Day 13](12-18-Berlin.md) - Day 14 - [Day 15](12-20-Berlin.md)
