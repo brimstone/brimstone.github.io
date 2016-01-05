@@ -2,4 +2,20 @@
 ------------
 ######Tue Jan  05
 
+We got up at 7am for our flight at 10:10. While we were eating, K's brother-in-law pointed out that it was snowing. We hadn't noticed because it was still dark outside. After breakfast, we did a final sweep and finished packing the bags. K's brother-in-law drove us to the airport. When we checked K's bag, it was about 22kg. My bag was over at 23.6kg. The limit is 23kg, 50.7lb. I quickly moved two items from my bag to K's making the final weight of my bag 22.9kg and K's 22.8kg. The three of us got coffee and croissants at one of the coffeeshops in the airport that wasn't a chain. The grandparents showed up with the two boys since they boys and their father love watching the airplanes. We got passed the security check with any excitement and made our way to the plane. We looked for the boys, but didn't see them. The first leg was only to Amsterdam, we were up and down in an hour. I was informed that I wasn't allowed to bring my own alcohol and consume it on the flight.
+
+[illegal booze]
+
+The Amsterdam airport is always a fun time. We made it through passport control with problems, the line was even pretty short. Our boarding gate was D01, and the boarding time for our 13:00 flight was 11:20. We thought that was kinda early, but we stuck to our usual plan of finding the gate, verifying boarding and take off times, then grabbing a snack. Gate D01 doesn't actually hist a plane. Instead it's more of a meta gate where Delta checks your papers and informs you of your actual gate. We had a bit more to go in the D terminal. We proceeded there and found a neat looking restaurant nearby. The gate looked ok, boarding started at 12:00 and ended at 12:45, giving us about 25 minutes to get a snack and get back. We headed back to the restaurant we saw on the way.
+
+I saw they had fries and I wanted fries. I was able to order a Dutch Hamburger with cheese ok. The man taking orders gave me a pager to signal when it was cooked and ready for take away. K got a banana,? And strawberry smoothie. We got in line to pay and picked up a water bottle, since we hadn't seen a water fountain on the trip over and were worried about time. The line didn't move for several minutes triggering us to rubberneck about the problem. Some guy was trying to buy a hot chocolate and pay with USD. The only cashier working ran iut of hot chocolate mix and had to go track some down. He told the man taking burger orders and he came over to help. I got in that man's line and gave him back the pager. As soon as I took K the smoothie and water, the pager went off and I went back to claim my burger. The receipt didn't specify my request for it togo, but a nice lady moved it to some Styrofoam for me. I added some lettuce, tomatoes, and pickles to it and put some truffle mayo in the box for dipping the fries.
+
+We made it back to the gate with plent of time, and they hadn't started boarding yet. It seems like more than half of the passengers had some form of Sky Priority, so we still had to wait a bit in a line to actually board. That was ok though. The person checking our papers told me "Have a nice lunch." I thought that was a nice touch.
+
+I was able to consume my burger and K helped consume my fries by 12:30. A flight attendant picked up my trash for me before we even took off. The first quote of the day was from a 10 year old while boarding: "Mom, mom! You forgot to buy Comfort Class seats. Why didn't you buy Comfort Class seats?" The next quote was when we were in the air from a girl about 6 years old "Here comes the sad part!"
+
+I had 3 totally legal whiskey cokes. K enjoyed a gin and tonic.
+
+
+
 [Day 30](01-04-Berlin.md) - Day 31
