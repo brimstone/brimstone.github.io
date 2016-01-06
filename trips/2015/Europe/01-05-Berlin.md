@@ -14,8 +14,9 @@ We made it back to the gate with plenty of time, and they hadn't started boardin
 
 I was able to consume my burger and K helped consume my fries by 12:30. A flight attendant picked up my trash for me before we even took off. The first quote of the day was from a 10 year old while boarding: "Mom, mom! You forgot to buy Comfort Class seats. Why didn't you buy Comfort Class seats?" The next quote was when we were in the air from a girl about 6 years old watching a movie "mom, this is the sad part!" We had extra leg room on our aisle, but there was an older man 2 rows up with a hacking cough that was sure to spread germs everywhere. 
 
-I had 3 totally legal whiskey cokes. K enjoyed a gin and tonic.
+I had 4 totally legal whiskey cokes. K enjoyed a gin and tonic.
 
+Getting off the plane, getting our bag and exiting the terminal went smoothly thanks to the Mobile Passport Control App K has on her iPhone. We took the shuttle around to the public transit station on the otherside of the airport. We needed sunglasses during this ride. We rode up to the station closest to home, then used Uber to get a ride right to our door. We finally arrived home at 6pm local time. We sorted through our mail and K started making a simple dinner of butternut squash ravioli and salad. After dinner, we unpacked our bags and determined that laundry could wait until tomorrow. We set aside items we brought to share with our work places and turned in early. I closed my eyes at 8:30pm local, only 19 and a half hours awake.
 
 
 [Day 30](01-04-Berlin.md) - Day 31
