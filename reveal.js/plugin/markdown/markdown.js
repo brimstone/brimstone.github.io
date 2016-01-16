@@ -177,7 +177,7 @@
 				markdownSections += '<section '+ options.attributes +'>';
 
 				sectionStack[i].forEach( function( child ) {
-					markdownSections += '<section data-markdown>' +  createMarkdownSlide( child, options ) + '</section>';
+					markdownSections += '<section ' + options.attributes + ' data-markdown>' +  createMarkdownSlide( child, options ) + '</section>';
 				} );
 
 				markdownSections += '</section>';
@@ -209,6 +209,7 @@
 
 				var xhr = new XMLHttpRequest(),
 					url = section.getAttribute( 'data-markdown' );
+				section.setAttribute('data-baseurl', url.substring(0, url.lastIndexOf('/')+1));
 
 				datacharset = section.getAttribute( 'data-charset' );
 
@@ -341,6 +342,13 @@
 	 */
 	function convertSlides() {
 
+		// modifications to the renderer so it understands a base url
+		var renderer = new marked.Renderer();
+		renderer.image = function ( href, title, text) {
+			href = this.options.baseurl + href;
+			return marked.Renderer.prototype.image.apply(this, [href, title, text]);
+		}
+		// end modifications
 		var sections = document.querySelectorAll( '[data-markdown]');
 
 		for( var i = 0, len = sections.length; i < len; i++ ) {
@@ -355,7 +363,7 @@
 				var notes = section.querySelector( 'aside.notes' );
 				var markdown = getMarkdownFromSlide( section );
 
-				section.innerHTML = marked( markdown );
+				section.innerHTML = marked( markdown, { baseurl: section.getAttribute('data-baseurl') || "", renderer: renderer } );
 				addAttributes( 	section, section, null, section.getAttribute( 'data-element-attributes' ) ||
 								section.parentNode.getAttribute( 'data-element-attributes' ) ||
 								DEFAULT_ELEMENT_ATTRIBUTES_SEPARATOR,
