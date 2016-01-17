@@ -4,9 +4,10 @@ Matt
 
 @brimston3
 
-http://brimstone.github.com
+http://brimstone.github.io
 
-Note: - Who knows go builds static binaries?
+Note: <a href="../slides.html?talks/musl-go.md#!">View this as slides</a>
+- Who knows go builds static binaries?
 - Who has used cgo?
 - Who has used docker?
 
@@ -143,6 +144,7 @@ docker-push:
 
 Note: - Walk through each target really fast
 - Mention hidden secrets
+- this was the previous cgo command to make static
 
 
 Dockerfile
@@ -284,6 +286,7 @@ Note: should have been second red flag
 strace
 ------
 ```
+❯ strace -e open ./getpwnam
 open("/etc/nsswitch.conf", O_RDONLY|O_CLOEXEC) = 3
 open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
 open("/lib/x86_64-linux-gnu/libnss_compat.so.2", O_RDONLY|O_CLOEXEC) …
@@ -338,4 +341,87 @@ Note: ask who's used a different libc?
 musl
 ----
 
-TODO screenshot of musl's website
+![](musl-go/musl-libc.org.png)
+
+Note: - used in openwrt
+- alpine linux?
+
+
+Tech404
+-------
+
+http://tech404.io
+
+![](musl-go/tech404.png)
+
+Note: sign up now!
+
+
+golang
+------
+
+![](musl-go/tech404.golang.png)
+
+Note: thanks andrewwatson!
+
+
+punchline
+---------
+```
+CC=/usr/local/musl/bin/musl-gcc
+```
+
+Note: - Download musl, compile, etc
+- Nothing special
+
+
+brimstone/golang-musl
+---------------------
+```
+FROM golang:1.6beta2-wheezy
+
+RUN wget http://www.musl-libc.org/releases/musl-latest.tar.gz \
+ && tar -zxvf musl-latest.tar.gz \
+ && rm musl-latest.tar.gz \
+ && cd musl* \
+ && ./configure \
+ && make \
+ && make install \
+ && rm -rf musl*
+
+ENV CC /usr/local/musl/bin/musl-gcc
+
+ENTRYPOINT [ "/usr/local/go/bin/go", "build", "-a", \
+	"-installsuffix", "cgo", "-ldflags", "-extldflags \"-static\"" ]
+```
+
+Note: - now it's a container!
+- this is the new command
+- linked to golang:1.6beta2-wheezy
+
+
+nomad Makefile
+--------------
+```
+GOPATH=${PWD}
+
+nomad:
+	cd src/github.com/hashicorp/nomad; go get -v -d
+	docker run --rm -it -v "${PWD}:/go" -u "${UID}:${GID}" \
+		brimstone/golang-musl github.com/hashicorp/nomad
+```
+
+Note: GOPATH is overwritten to the local directory because submodules
+
+
+Result
+------
+```
+REPOSITORY       TAG      IMAGE ID      CREATED      VIRTUAL SIZE
+brimstone/nomad  latest   7cb1b36e829d  2 days ago   25.13 MB
+brimstone/nomad  server   0efeebb6bcca  2 days ago   25.13 MB
+brimstone/nomad  client   7cbdeb039b77  2 days ago   25.13 MB
+```
+
+Note: - it's still based off busybox for the server-loader
+- live demo?
