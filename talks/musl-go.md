@@ -10,6 +10,7 @@ Note: <a href="../slides.html?talks/musl-go.md#!">View this as slides</a>
 - Who knows go builds static binaries?
 - Who has used cgo?
 - Who has used docker?
+- also a good read: http://dave.cheney.net/2016/01/18/cgo-is-not-go
 
 
 
