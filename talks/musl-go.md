@@ -363,6 +363,7 @@ golang
 ![](musl-go/tech404.golang.png)
 
 Note: thanks andrewwatson!
+http://dominik.honnef.co/posts/2015/06/statically_compiled_go_programs__always__even_with_cgo__using_musl/
 
 
 punchline
@@ -373,6 +374,17 @@ CC=/usr/local/musl/bin/musl-gcc
 
 Note: - Download musl, compile, etc
 - Nothing special
+
+
+golang 1.5 gotcha
+-----------------
+```
+user: unreasonable _SC_GETPW_R_SIZE_MAX of -1
+```
+
+This is fixed in 1.6beta2, as of June 2015
+
+Note: just my luck
 
 
 brimstone/golang-musl
