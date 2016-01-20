@@ -123,6 +123,73 @@ script:
 Note: sudo: isn't required, actually
 
 
+Aside: default
+--------------
+```
+package main
+
+func main() {
+	println("Hello!")
+}
+```
+```
+not a dynamic executable
+```
+
+Note: Go will try to build a static binary, if it can.
+
+
+Aside: netgo example
+--------------------
+```
+package main
+
+import (
+	"io/ioutil"
+	"net/http"
+	"os"
+)
+
+func main() {
+	resp, err := http.Get("http://ip.appspot.com")
+	if err != nil { println(err); os.Exit(1); }
+	defer resp.Body.Close()
+	body, err := ioutil.ReadAll(resp.Body)
+	if err != nil { println(err); os.Exit(1); }
+	println(string(body))
+}
+```
+
+Note: Simple http get, nothing special
+
+
+Aside: netgo default
+--------------------
+```
+go build http.go
+```
+```
+linux-vdso.so.1 (0x00007ffc159d7000)
+libpthread.so.0 => /lib/x86_64-linux-gnu/libpthread.so.0 (0x00007f70c…
+libc.so.6 => /lib/x86_64-linux-gnu/libc.so.6 (0x00007f70c9b3a000)
+/lib64/ld-linux-x86-64.so.2 (0x000056216d358000)
+```
+
+Note: This causes linking against libc
+
+
+Aside: netgo tag
+----------------
+```
+go build -tags netgo http.go
+```
+```
+not a dynamic executable
+```
+
+Note: This only fixes DNS requests
+
+
 Makefile
 --------
 ```
@@ -207,7 +274,6 @@ ated 1) (ignore 0)
 Note: - Almost, but no cigar
 - Why? to drop privileges for security
 - Should be easy enough to debug right?
-
 
 
 Rabbit hole
