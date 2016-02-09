@@ -3,8 +3,8 @@ A place for my notes
 
 <div class="row"><div class="col-md-6"><h2>[Talks](talks/index.md)</h2><hr>
 [preview:3](talks/musl-go.md)
-</div><div class="col-md-6"><h2>[Blog](blog/2014/09/index.md)</h2><hr>
-[preview:3](blog/2014/09/startingback.md)
+</div><div class="col-md-6"><h2>[Blog](blog/2016/02/index.md)</h2><hr>
+[preview:3](blog/2016/02/container-policy.md)
 </div></div>
 <div class="row"><div class="col-md-6"><h2>[Events](events/2015/12/index.md)</h2><hr>
 [preview:3](events/2015/12/32c3.md)
