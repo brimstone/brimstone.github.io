@@ -3,15 +3,16 @@
 [Projects]()
 
   * [Information Radiator](projects/infovent/index.md)
-  * [Journeys in shellcode](projects/shellcode/index.md)
   * [Key/Value Store](projects/kvstore/index.md)
   * [Pentesting](projects/pentesting/index.md)
+  * [Journeys in shellcode](projects/shellcode/index.md)
 
 [Blog]()
 
   * [September 2013](blog/2013/09/index.md)
   * [October 2013](blog/2013/10/index.md)
   * [September 2014](blog/2014/09/index.md)
+  * [February 2016](blog/2016/02/index.md)
 
 [Events]()
 
