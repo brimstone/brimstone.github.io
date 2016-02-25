@@ -76,7 +76,10 @@ body {
   max-width: 95%;
   max-height: 95%; }
 
-.reveal strong, .reveal b {
+.reveal strong {
+  text-decoration: underline; }
+
+.reveal b {
   font-weight: bold; }
 
 .reveal em {
