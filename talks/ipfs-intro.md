@@ -13,7 +13,7 @@ QmRYdsLqqMCUfAskVKapk296yRTmvJ4CKi5SumihH8gmj2
 
 <div style="clear: both"></div>
 
-Note: - <a href="../slides.html?talks/ipfs-intro.md#!">View this as slides</a>
+Note: - <a href="slides.html?talks/ipfs-intro.md#!">View this as slides</a>
 - [ConsenSys description](https://medium.com/@ConsenSys/an-introduction-to-ipfs-9bba4860abd0)
 
 
