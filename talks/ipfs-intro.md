@@ -291,13 +291,122 @@ Note: - This actually removes the content, blocks, etc from the local system
 
 
 
-What else can be done?
-----------------------
-- IPNS
-- dnslink
-- unhosted apps
-- This presentation
-- Neocities
+> When you have IPFS, you can start looking at everything else in one specific way and you realize that you can replace it all” — [Juan Benet](https://twitter.com/juanbenet)
 
-Note: - Daemon is talking to other peers
-- https://ipfs.io/ipfs/QmUftM9MnmDrTGUZDXuexd9atArKEzSqQYjQP5Xt3oCvwx/exportedsites.html
+Note: - What else can be done?
+- Lots of things
+- What follows is just a sample
+
+
+
+IPNS
+----
+Multihash of content can be published to an identity
+
+Note: - Remember that ID from earlier?
+- You can publish a multihash to that ID
+- This allows for an unchanging multihash that points to changing content, still secure
+
+
+Publishing
+----------
+```
+$ ipfs name publish QmeFbk7zA3t8CsWpjzS3KixSmT4DD9YXbPHmTtxyf65Y3A
+Published to QmRYdsLqqMCUfAskVKapk296yRTmvJ4CKi5SumihH8gmj2: QmeFbk7zA3t8CsWpjzS3KixSmT4DD9YXbPHmTtxyf65Y3A
+```
+
+Note: - publishing to ipns is super simple
+
+
+Resolving
+---------
+```
+$ ipfs name resolve QmRYdsLqqMCUfAskVKapk296yRTmvJ4CKi5SumihH8gmj2
+/ipfs/QmeFbk7zA3t8CsWpjzS3KixSmT4DD9YXbPHmTtxyf65Y3A
+```
+https://ipfs.io/ipns/QmRYdsLqqMCUfAskVKapk296yRTmvJ4CKi5SumihH8gmj2
+
+Note: - resolving is just as simple
+- The daemons, local and public, can resolve ipns
+- Caveat: this is a little slow, but the devs are working on it
+
+
+
+
+dnslink
+-------
+
+```
+;; ANSWER SECTION:
+blog.in.the.narro.ws.	300	IN	TXT	"dnslink=/ipns/QmRYdsLqqMCUfAskVKapk296yRTmvJ4CKi5SumihH8gmj2"
+```
+
+Note: - dnslink allows an ipfs or ipns multihash to be stored in a TXT record. How cool is that?
+- newer versions allow for a `_dnslink` subdomain, so the parent domain can be a CNAME.
+
+
+
+> Also known as "serverless", "client-side", or "static" web apps, unhosted web apps do not send your user data to their server. Either you connect your own server at runtime, or your data stays within the browser. — https://unhosted.org/
+
+Note: - Part of the http://nobackend.org/ movement
+- Everything is client side, javascript, css, html.
+- Store your content in the local browser, or IPFS it self, allowed through CORS headers
+
+
+
+This presentation
+-----------------
+
+Note: - Yes, you can view this presentation itself over IPFS
+- http://localhost:8080/ipns/QmRYdsLqqMCUfAskVKapk296yRTmvJ4CKi5SumihH8gmj2/slides.html?talks/ipfs-intro.md#/9
+
+
+
+Neocities
+---------
+https://neocities.org/
+
+Note: - Simple free static webpage hosting.
+- Each site is an ipfs directory.
+- Each version of a site is an ipfs directory.
+
+
+
+git-remote-ipfs
+---------------
+https://github.com/cryptix/git-remote-ipfs
+
+Note: Host and clone repos over IPFS in case some other hub service goes down, again.
+
+
+
+Awesome-ipfs
+------------
+https://github.com/ipfs/awesome-ipfs
+
+Note: - The community maintains a list of awesome resources around ipfs.
+- Take a look, if you like this presentation so far, you'll find more stuff there to like.
+
+
+
+Exported sites
+--------------
+https://ipfs.io/ipfs/QmUftM9MnmDrTGUZDXuexd9atArKEzSqQYjQP5Xt3oCvwx/exportedsites.html
+
+Note: - Several datastores of example content are listed here.
+- The developers use this as a store of random content.
+
+
+
+Questions?
+----------
+
+
+
+Thanks!
+-------
+Matt - @brimston3
+
+http://blog.in.the.narro.ws
+
+QmRYdsLqqMCUfAskVKapk296yRTmvJ4CKi5SumihH8gmj2
