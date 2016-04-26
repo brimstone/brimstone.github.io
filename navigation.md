@@ -3,9 +3,9 @@
 [Projects]()
 
   * [Information Radiator](projects/infovent/index.md)
+  * [Journeys in shellcode](projects/shellcode/index.md)
   * [Key/Value Store](projects/kvstore/index.md)
   * [Pentesting](projects/pentesting/index.md)
-  * [Journeys in shellcode](projects/shellcode/index.md)
 
 [Blog]()
 
@@ -25,6 +25,8 @@
   * [Go/docker meetup](events/2015/07/godocker.md)
   * [Phreaknic 19](events/2015/11/phreaknic19.md)
   * [32nd Chaos Communication Congress](events/2015/12/32c3.md)
+  * [Devopsdaysatl](events/2016/04/devopsdaysatl.md)
+  * [Hope XI](events/2016/07/hope.xi.md)
 
 [Trips]()
 
