@@ -101,4 +101,18 @@ John Willis
 Lunch Questions
 ---------------
 - Terraform can keep state in an S3 bucket, where else?
-- Does a test servEr exist insuch to keep track of which tests fail the most frequent?
+- Does a test server exist insuch to keep track of which tests fail the most frequent?
+
+
+Open Space: Database Version Control
+------------------------------------
+- Liquibase migration scripts
+- dbunit, redgate
+- "If you have a problem with version control, you have a problem with discipline."
+
+
+Open Space: Dashboards
+----------------------
+- Most people use ELK
+- People are putting redis in front of logstash to help with burst traffic.
+-
