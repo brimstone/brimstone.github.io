@@ -18,6 +18,7 @@ Opening welcome
 Putting the Service in Microservices
 ------------------------------------
 Jeff Sussna @jeffsussna
+
 - DevOps is Conway's Law
 - "The shape of your organization drives the shape of your application."
 - Every project has to be broken down into parts.
@@ -31,6 +32,7 @@ Enterprise Application as a 12 Factor App
 -----------------------------------------
 *Developing and Operating an Enterprise Application as a 12Factor App using Docker and Amazon Web Services*
 Kartik Pandya kpandya@manh.com
+
 - Enterprise app:
   - upgradable with zero downtime
   - scalable
@@ -84,6 +86,7 @@ Kartik Pandya kpandya@manh.com
 Frameworks for Feedback
 -----------------------
 Rebecca Miller-Webster @rmillerwebster
+
 - Having another human look at your code is the best way to reduce bugs
 - 1:1s are feedbacks, need to be more between peers
 - The goal of feedback is to build a better relationship
@@ -108,6 +111,7 @@ Rebecca Miller-Webster @rmillerwebster
 Closing Keynote - Burnout
 -------------------------
 John Willis
+
 - made a blog post about burnout, need to read on itrevolution.com
 - karojatu "death by overwork
 - burnout.io
