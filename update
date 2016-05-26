@@ -76,4 +76,17 @@ find trips -maxdepth 2 -name '*.md' \
 done
 echo "" >> navigation.md
 
+echo "[Talks]()" >> navigation.md
+echo "" >> navigation.md
+rm talks/index.md
+(
+cd talks
+for atalk in *.md; do \
+	title=$(head -n 1 "$atalk")
+	echo "  * [$title](talks/$atalk)" >> ../navigation.md
+	echo "[preview:3]($atalk)" >> index.md
+done
+)
+echo "" >> navigation.md
+
 echo "[gimmick:theme](readable)" >> navigation.md
