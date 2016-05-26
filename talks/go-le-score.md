@@ -179,3 +179,5 @@ Bonus content!
 http://xip.io
 
 http://nip.io
+
+https://crt.sh/?Identity=%25.xip.io
