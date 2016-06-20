@@ -29,3 +29,31 @@ General session
 - DAB file format Distributed Application Bundle
 - Docker Compose generates the DAB file
 - Docker for AWS beta uses cloud formation
+
+
+
+Golden Ticket
+-------------
+Aaron Grattafiori @dyn__
+
+- He wrote a whitepaper with more info.
+- "Microservices distribute complexity"
+- Layer defenses, harden what has to be exposed
+- Microservices actually make this easier
+- "Complexity breeds insecurity"
+
+
+- Don't just setup TLS, but also ipsec, if you can
+- TODO Research Clear Linux
+- Does your OS use compile time flags for binaries?
+- Default Docker AppArmor policy is good, only prevents escape from container
+- aa-genprof generates apparmor profiles
+
+
+- strace can be used to write seccomp profiles
+- other syscall auditors: sysdig, auditd, SECCOMP_RET_TRACE
+- subgraph as a libseccomp for go
+- TLS all the time, everywhere, no excuses
+- keep logs centrally, forever
+
+
