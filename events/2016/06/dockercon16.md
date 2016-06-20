@@ -62,6 +62,13 @@ Aaron Grattafiori @dyn__
 
 
 
+Lunch conversation
+------------------
+- Tool landscape changes far too fast
+- How to update?
+
+
+
 Cloning running servers with CRIU
 ---------------------------------
 Ross Boucher @boucher https://github.com/boucher
@@ -78,5 +85,34 @@ Ross Boucher @boucher https://github.com/boucher
 - Doesn't have a good answer to how this works with the new orchestration announcements earlier
 
 
+
+Dockerfile explosion
+--------------------
+Gareth Rushgrove @garethr
+
+- ONBUILD, ARGS, etc arn't common usage
+- Dockerfiles were frozen last year
+- HEALTHCHECK and SHELL added in 1.12
+- http://hadolint.lukasmartinelli.ch/
+- words about abstractions, $LANGUAGE -> Dockerfile
+
+
+- words about Docker image spec, packer, openshift, nix
+- Rocker extends Dockerfiles with Rockerfiles
+- Dockeramp builds images on the client
+- Dockerfilepp lets users create their own primitives
+
+
+- Wants:
+  - Formal Dockerfile spec
+  - Build API to support FROM, RUN, COPY, etc as primitives
+  - Opinionated workflow tooling around image building
+  - More shared libraries and preprocessors
+  - Better tools for managing Dockerfiles
+
+
+- Q: how to share new primitives? A hub maybe?
+- Q: why freeze? Making descisions is slow and hard. Wants to see features slowly, after vetting in projects like Rocker.
+- Q: how to use other tools with compose? 
 
 
