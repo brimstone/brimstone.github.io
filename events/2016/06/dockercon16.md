@@ -6,8 +6,8 @@ Note: <a href="slides.html?events/2016/06/dockercon16.md#!">View this as slides<
 
 
 
-General session
----------------
+General session: Day 1
+----------------------
 - highlighting kids usage
 - dockercon14: 500 attendees
 - dockercon15: 2000 attendees
@@ -158,16 +158,28 @@ Ying Li
 
 
 
+General Session: Day 2
+----------------------
+
+- Addressing Traditional On-Prem Legacy App
+- Addressing Agile business practices
+- Pushing using Docker for "Incremental Revolution"
+- Demo of UCP deploying DABs, for enterprise
+
+- https://store.docker.com
+- Docker Datacenter on Azure demo
+- Private Azure, on prem, talks with Public Azure, managed the same
+
+
+
 Expo
 ----
 
-Weave
------
+### Weave
 
 - Can be used as a Network Plugin or API proxy
 
-Swarm
------
+### Swarm
 
 - Multi arch cluster?
 - How does the container know it's the first?
@@ -175,4 +187,10 @@ Swarm
 - Progress of update?
 - Handle Manager failure?
 - How to setup 2x4 example?
+
+### Artifactory
+
+- How does DCT work, API?
+  - Works with Notary. Dunno Notary
+- How to scan and promote images, webhooks?
 
