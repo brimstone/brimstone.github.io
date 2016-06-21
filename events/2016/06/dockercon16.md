@@ -21,7 +21,7 @@ General session: Day 1
 - Visual Studio debugs node.js app in a container, on a mac
 
 
-- Splice used to make new defs update the README on their first day.
+- Splice used to make new devs update the README on their first day.
 - Docker for Mac is easy enough they just `docker-compose up`
 - Docker solved orchestration in 1.12
 - Swarm mode doesn't need an external K/V
@@ -191,6 +191,83 @@ Getting Deep on Orchestration
 - https://github.com/buildertools/entropy
 - nifty demo
 
+
+
+Lunch chatter
+-------------
+
+The Climate Corporation
+- Nitrogen tracking
+- Free weather tracking service
+
+
+
+Making friendly Microservices
+-----------------------------
+Michele Titolo
+
+- Microservice is a small service that does one thing well, that keeps up with its own data.
+- Docs make microservices helpful
+- Autogen Docs. Make them from the code, part of the release pipeline.
+  - Swagger
+  - API blueprint
+  - RAML
+
+
+- Be an ally by integrating monitoring tools
+- Log everything, with unique IDs
+- Neflix/atlas, zipkin
+- Error messages are great in theory, but they have to be consistent and clear
+
+
+- Mobile app gets a HTTP 206 when the server has some data
+- Each service has its own container
+- Stand them up with compose
+- Use one base URL for everything
+
+
+- Don't use wildcard certs
+- Pin SSL certs
+- she uses netflix/zuul for a gateway
+- Need to make your API discoverable to ease the friction of others using it
+
+
+
+20 Minutes to faking the DevOps Unicorn
+---------------------------------------
+Matt Williams
+
+- "You can't just go out and buy a devops guy"
+- Culture, Automation, Metrics, and Sharing
+- Collect everything all the time, far too hard to recreate the problem after the fact
+- recommend gathering, these work together and are almost useless alone:
+  - Work metrics: Throughput, Success, Error, and Performance
+  - Resource metrics: Utilization, Saturation, Error, and Availability
+  - Events: Code Changes, Alerts, and Scaling Events
+- Every Alert must be actionable
+
+
+
+Serverless with Docker
+----------------------
+Nirmal Mehta
+
+- Did the keynote last year, need to check into that, might be lame
+- launched codelift.io last year, makes dockerfiles and compose.ymls from a github repo
+- http://martinfowler.com/articles/serverless.html
+- AWS launched Lambda in 2013
+
+
+- serverless.com: tooling for lambda and AWS API Gateway
+- iron.io: event queue, data cache, and worker components. Works in any cloud
+- apex.run: framework like serverless, supports more languages than node.js with a shim.
+- iopipe.com: Dockeraless, uses Swarm to run a container with the function
+
+
+- thinks there will be a serverless track or section at dockercon 17
+- https://github.com/iopipe/dockerbot-serverless
+- Carina by Rackspace is a free 3 node swarm cluster
+- https://github.com/bfirsh/serverless-docker
 
 
 Expo
