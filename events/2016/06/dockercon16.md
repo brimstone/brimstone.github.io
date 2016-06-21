@@ -140,6 +140,23 @@ Reduce Devops friction with Docker and Jenkins
 
 
 
+Security your software supply chain
+-----------------------------------
+Ying Li
+
+- users, images, nodes, clusters, all have unique IDs now
+- passwords aren't stored as base64 in config.json anymore
+- pushing Notary
+- base images are signed by Docker Content Trust
+
+
+- `wget https... && echo | sha256sum`
+- images expire? DCT provides this as a warning apparently
+- Docker Bench is updated to 1.11
+- New swarm makes the manager that is the leader handle TLS betweeen managers and nodes
+- live demo of swarm with swarmkit
+
+
 
 Expo
 ----
@@ -156,4 +173,6 @@ Swarm
 - How does the container know it's the first?
 - Change environment variable, delay rollout?
 - Progress of update?
+- Handle Manager failure?
+- How to setup 2x4 example?
 
