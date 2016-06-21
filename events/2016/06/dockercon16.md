@@ -172,6 +172,27 @@ General Session: Day 2
 
 
 
+Getting Deep on Orchestration
+-----------------------------
+@allingeek allingeek.com
+
+- has experience working at Amazon
+- Used Amazon Apollo, now called Code Deploy
+- An orchestration platform provides control of high level abstractions which imply deployment and lifecycle management
+- text heavy slides, good terminology
+
+- Understand basic patterns, then easy to pick up any tool
+- System of Record is a single point of failure
+- Watch out for Network Stress
+- PR question: How confident are you in these changes?
+
+- http://principlesofchaos.org
+- Project: Entropy https://github.com/allingeek/gremlins
+- https://github.com/buildertools/entropy
+- nifty demo
+
+
+
 Expo
 ----
 
