@@ -116,3 +116,44 @@ Gareth Rushgrove @garethr
 - Q: how to use other tools with compose? 
 
 
+
+Developing an Enterprise Container Management Strategy
+------------------------------------------------------
+Darren Shephard @ibuildthecloud
+
+- Rancher is all open source
+- business model is to sell support
+- `docker run rancher/server`
+- Live demo problems on a linux desktop :(
+- Rancher can manage k8s, mesos, and swarm clusters
+- Has a catalog of apps backed by compose or k8s that can be launched to your cluster
+- Rancher 1.1 supports Docker 1.12
+
+
+
+Reduce Devops friction with Docker and Jenkins
+----------------------------------------------
+
+- Docker can replace the .war/puppet/server bits in the usual pipeline
+- Docker build and Publish, Docker Traceability, and Docker Hub Notification plugins
+- Jenkns pipelne dsl dzone refcard
+
+
+
+
+Expo
+----
+
+Weave
+-----
+
+- Can be used as a Network Plugin or API proxy
+
+Swarm
+-----
+
+- Multi arch cluster?
+- How does the container know it's the first?
+- Change environment variable, delay rollout?
+- Progress of update?
+
