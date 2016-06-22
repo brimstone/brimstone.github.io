@@ -270,6 +270,45 @@ Nirmal Mehta
 - https://github.com/bfirsh/serverless-docker
 
 
+
+Sharding Containers
+-------------------
+Andrey Sibiryov
+
+- Uber has 1000 microservices in production, in every language
+- Comouters are basically networks-on-a-chip
+- Go GC is so active NUMA logic moves memory pages closer to GC workers
+- Docker can pin containers to CPU cores
+
+
+- local loadbalancer, spawning and pinning multiple instances
+- http://github.com/kobolog/tesson
+- uses wrk for http testing
+- 70% gain for free, 133/220
+- gains aren't as big with python
+
+
+
+
+Moby's cool hacks
+-----------------
+
+### Jeff Nickoloff @allingeek
+
+- same project: entropy demo as earlier
+
+### Ben Firshman @bfirsh
+
+- Converting message queue and worker process from voting app to a "serverless" docker dingus
+- Each http request is handled via a unique CGI container
+
+### resin.io
+
+- Yocto based OS on the drone
+- Showed updating the control software on a drone while it was flying
+
+
+
 Expo
 ----
 
