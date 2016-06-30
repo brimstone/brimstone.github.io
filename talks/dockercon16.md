@@ -67,6 +67,15 @@ Docker 1.12 News
 
 
 
+Canned demo
+-----------
+- new employee
+- compose up
+- compose bundle into .DAB
+- conversation with ops
+
+
+
 John Willis
 -----------
 - Great talk but it was all over the place, try to find a video
@@ -84,22 +93,13 @@ Riot Games
 - 1.25 million software builds/yr; 10-14k containers/day
 - "Wouldn't it be awesome if devs could just hand over a dockerfile that defines their build jobs/environment?"
 - Dockerfile for a build slave is big and does lots of things that are usually considered antipatterns (exposed SSH, multiple processes, multiple versions of same process to accomodate unit tests, etc)
-- Automated Jenkins via Groovy [example](github.com/maxfields2000/dockerjenkins_tutorial)
+- Automated Jenkins via Groovy: https://github.com/maxfields2000/dockerjenkins_tutorial
 
 
 - Needed a way to verify images and inspect containers, created "harbormaster" tool
 - Then devs wanted to start building Docker containers inside of their build containers (!), put "Drydock" tool into the mix
 - Garbage collection via Spotify's docker-gc tool (on github)
-- Lots more info (here)[https://engineering.riotgames.com/news/building-jenkins-inside-ephemeral-docker-container]
-
-
-
-Canned demo
------------
-- new employee
-- compose up
-- compose bundle into .DAB
-- conversation with ops
+- Lots more info: https://engineering.riotgames.com/news/building-jenkins-inside-ephemeral-docker-container
 
 
 
@@ -107,7 +107,7 @@ Sharding Containers
 -------------------
 - Computers are basically networks-on-a-chip
 - Used Docker to pin containers to CPU cores
-- local loadbalancer to spawn and pin
+- Local loadbalancer to spawn and pin
 - 65% gain for free, 133/220 req
 
 
