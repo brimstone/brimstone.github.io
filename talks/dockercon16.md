@@ -15,6 +15,13 @@ Link dump:
 
 
 
+But first
+---------
+
+<iframe width="853" height="480" src="https://www.youtube-nocookie.com/embed/KC9tJ7b3dww?start=4745&end=4947" frameborder="0" allowfullscreen></iframe>
+
+
+
 Docker 1.12 News
 ----------------
 
