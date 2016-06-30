@@ -34,6 +34,7 @@
 
 [Talks]()
 
+  * [Dockercon 16](talks/dockercon16.md)
   * [Go, Let's Encrypt, and the Perfect Score](talks/go-le-score.md)
   * [Introduction to IPFS](talks/ipfs-intro.md)
   * [Truly Static Binaries with Go](talks/musl-go.md)
