@@ -160,3 +160,50 @@ Updating container on drone while it is flying
 
 
 ![](dockercon16/crate.io.nuc.cluster.jpg)
+
+
+
+1.12 Hackathon
+--------------
+
+Now through July 25
+
+
+Criteria
+--------
+
+Fit: Does Docker improve the project or fundamentally enable it?
+
+Efficiency: Is this implementation small in size, easy to transport, quick to start up and run?
+
+Integration: Does the project fit well into other systems, or is it sufficiently complex itself to be its own system?
+
+
+Transparency: Can other people easily recreate your project now that you’ve shown how? Is your code open source?
+
+Presentation: How well did you present your project in the video? Does the video convey your hack clearly and do you cover all the important points?
+
+
+Usefulness: Popular vote on how many would people would use your hack. So keep your audience in mind!
+
+Longevity: Can the project be improved / built upon?
+
+Bonus Points: Contributions and bug fixes to the Docker 1.12 Github repository
+
+
+Prizes
+------
+
+1st place winners: MakerBot – Replicator Mini as well as five Docker Hub private Repositories and one Docker Cloud extra node.
+
+2nd place winners: Apple Watch
+
+3rd place winners: Oculus Rift
+
+
+Sign up
+-------
+
+http://docker112.devpost.com/
+
+http://tech404.io #docker
