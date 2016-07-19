@@ -173,6 +173,16 @@ Current Score
 
 
 
+Caddy
+-----
+[caddyserver.com](https://caddyserver.com/)
+- Let's Encrypt
+- Proxy
+- Markdown
+- FastCGI
+
+
+
 Bonus content!
 --------------
 
