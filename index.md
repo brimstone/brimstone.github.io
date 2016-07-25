@@ -6,8 +6,8 @@ A place for my notes
 </div><div class="col-md-6"><h2>[Blog](blog/2016/02/index.md)</h2><hr>
 [preview:3](blog/2016/02/container-policy.md)
 </div></div>
-<div class="row"><div class="col-md-6"><h2>[Events](events/2015/12/index.md)</h2><hr>
-[preview:3](events/2015/12/32c3.md)
+<div class="row"><div class="col-md-6"><h2>[Events](events/2016/07/index.md)</h2><hr>
+[preview:3](events/2016/07/hope.xi.md)
 </div><div class="col-md-6"><h2>[Projects](projects/index.md)</h2><hr>
 [preview:3](projects/infovent/index.md)
 </div></div>
