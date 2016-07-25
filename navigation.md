@@ -27,6 +27,7 @@
   * [32nd Chaos Communication Congress](events/2015/12/32c3.md)
   * [Devopsdaysatl](events/2016/04/devopsdaysatl.md)
   * [Dockercon 2016](events/2016/06/dockercon16.md)
+  * [Hope XI](events/2016/07/hope.xi.md)
 
 [Trips]()
 
@@ -34,7 +35,7 @@
 
 [Talks]()
 
-  * [Dockercon 16](talks/dockercon16.md)
+  * [Dockercon16](talks/dockercon16.md)
   * [Go, Let's Encrypt, and the Perfect Score](talks/go-le-score.md)
   * [Introduction to IPFS](talks/ipfs-intro.md)
   * [Truly Static Binaries with Go](talks/musl-go.md)
