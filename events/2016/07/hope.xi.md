@@ -12,7 +12,7 @@ Zimmer Barnes facebook.com/zimmer.barnes
 - est 4000/day dead because of air polution
 - Mitch Altman does a yearly Hacker Trip to China
 - Hacker in Residence for University(?)
-- cersanthumum, money plant, etc used to filter air of volitile organtic matter
+- chrysanthemum, money plant, etc used to filter air of volatile organic matter
 - icenter, new makerspace
 - tried to make smart gum
 - tons of pictures
@@ -20,9 +20,9 @@ Zimmer Barnes facebook.com/zimmer.barnes
 - started Task Force XX to promote women in tech
 - Ramblings of a Mad Scientist on amazon now free on SmashWords
 - Vegan Restaurant "So Boring" driven on donations alone
-- "we" sounds like "woh men" in chinese. "we can do it" remix
+- "we" sounds like "woh men" in Chinese. "we can do it" remix
 - started q-space
-- Kieren Snyder did a survey aout women in tech in the US(?)
+- Kieren Snyder did a survey about women in tech in the US(?)
 - caffeine pills are banned
 
 Badge notes
@@ -42,10 +42,10 @@ THIS IS THE PASSPHRASE: DRUMMERS
 
 LVFU XAN YIJ UVXRB RKOYOFB!
 DRUM MER SDR UMMER SDRUMME
-H
+HOPE
 
 
-ABCDEFGHIJKLMNOPQRSTUVWXYZ
+//ABCDEFGHIJKLMNOPQRSTUVWXYZ
 STONEHGABCDFIJKLMPQRUVWXYZ
 TONEHGABCDFIJKLMPQRUVWXYZS
 ONEHGABCDFIJKLMPQRUVWXYZST
@@ -81,12 +81,12 @@ Sam Bowne & Alex Muentz samsclass.info
 
 - works at a university with tenure
 - cert has auto app broken https detection
-- blue cross blue shield of north carolina ignores https certs, also allows login to twitter and facebook
+- blue cross blue shield of North Carolina app ignores https certs, also allows login to twitter and facebook
 - HIPPA at LSU and UH Conway
 - open FTP server with medical records
 - tried to notify
-- local Louisana media tries to report about it, fails
-- South Carolina reports on Louisana article
+- local Louisiana media tries to report about it, fails
+- South Carolina reports on Louisiana article
 - 18 USC 1030 / CFAA
 - Alex won't admit that Sam broke the law, but I think he did.
 - suddenly bitcoin talk?
@@ -105,7 +105,7 @@ EFF
 The Onion Report
 ----------------
 
-- new office from boston to seattle
+- new office from Boston to Seattle
 - onion space in berlin
 - there's a good/bad isp page on the wiki
 - gettor@torproject.org
@@ -151,7 +151,7 @@ Pirate Radio in NYC
 - usbky, tukish, asitic jews all broadcast
 - mentions people might be renting pirate radio time
 - off the hook episode with David Goren
-- mentioned antrenna in episode
+- mentioned antenna in episode
 - transmitters on amazon for less than $100
 - godar antenna for receiving
 
