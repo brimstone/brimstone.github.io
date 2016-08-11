@@ -2,7 +2,7 @@ A place for my notes
 ====================
 
 <div class="row"><div class="col-md-6"><h2>[Talks](talks/index.md)</h2><hr>
-[preview:3](talks/go-le-score.md)
+[preview:3](talks/hope.xi.md)
 </div><div class="col-md-6"><h2>[Blog](blog/2016/02/index.md)</h2><hr>
 [preview:3](blog/2016/02/container-policy.md)
 </div></div>
