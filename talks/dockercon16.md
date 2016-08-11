@@ -6,7 +6,7 @@ Dockercon16
 
 ![](dockercon16/dockercon.metal.jpg)
 
-July 20-21, 2016, Seattle
+June 20-21, 2016, Seattle
 
 Note: <a href="slides.html?talks/dockercon16.md#!">View this as slides</a>
 Link dump:
