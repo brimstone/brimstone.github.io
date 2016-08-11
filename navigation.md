@@ -3,9 +3,9 @@
 [Projects]()
 
   * [Information Radiator](projects/infovent/index.md)
-  * [Journeys in shellcode](projects/shellcode/index.md)
   * [Key/Value Store](projects/kvstore/index.md)
   * [Pentesting](projects/pentesting/index.md)
+  * [Journeys in shellcode](projects/shellcode/index.md)
 
 [Blog]()
 
@@ -37,6 +37,7 @@
 
   * [Dockercon16](talks/dockercon16.md)
   * [Go, Let's Encrypt, and the Perfect Score](talks/go-le-score.md)
+  * [HOPE XI](talks/hope.xi.md)
   * [Introduction to IPFS](talks/ipfs-intro.md)
   * [Truly Static Binaries with Go](talks/musl-go.md)
 
