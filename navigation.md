@@ -2,11 +2,11 @@
 
 [Projects]()
 
-  * [Pi Cluster](projects/picluster/index.md)
+  * [CTF](projects/ctf/index.md)
   * [Information Radiator](projects/infovent/index.md)
   * [Key/Value Store](projects/kvstore/index.md)
-  * [CTF](projects/ctf/index.md)
   * [Pentesting](projects/pentesting/index.md)
+  * [Pi Cluster](projects/picluster/index.md)
   * [Journeys in shellcode](projects/shellcode/index.md)
 
 [Blog]()
