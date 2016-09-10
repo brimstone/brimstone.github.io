@@ -2,6 +2,7 @@
 
 [Projects]()
 
+  * [Pi Cluster](projects/picluster/index.md)
   * [Information Radiator](projects/infovent/index.md)
   * [Key/Value Store](projects/kvstore/index.md)
   * [CTF](projects/ctf/index.md)
