@@ -13,16 +13,13 @@ echo "" >> navigation.md
 echo "[Projects]()" >> navigation.md
 echo "" >> navigation.md
 rm projects/index.md
-(
-cd projects
-find * -name index.md \
+find projects -name index.md \
 | sort \
 | while read aproject; do
 	title=$(head -n 1 "$aproject")
-	echo "  * [$title](projects/$aproject)" >> ../navigation.md
-	echo "[preview:3]($aproject)" >> index.md
+	echo "  * [$title]($aproject)" >> navigation.md
+	echo "[preview:3]($aproject)" >> projects/index.md
 done
-)
 echo "" >> navigation.md
 
 echo "[Blog]()" >> navigation.md
