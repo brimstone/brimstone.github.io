@@ -18,6 +18,8 @@ Hardware:
 Software:
 
 - Hypriot 1.0.0
+- For the Pi3 only, probably not used: https://www.raspberrypi.org/documentation/hardware/raspberrypi/bootmodes/net_tutorial.md
+- https://learn.adafruit.com/turning-your-raspberry-pi-zero-into-a-usb-gadget/ethernet-gadget
 
 Progress
 --------
