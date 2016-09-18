@@ -17,9 +17,9 @@ Hardware:
 
 Software:
 
-- Hypriot 1.0.0
+- Raspbian
 - For the Pi3 only, probably not used: https://www.raspberrypi.org/documentation/hardware/raspberrypi/bootmodes/net_tutorial.md
-- https://learn.adafruit.com/turning-your-raspberry-pi-zero-into-a-usb-gadget/ethernet-gadget
+- https://learn.adafruit.com/turning-your-raspberry-pi-zero-into-a-usb-gadget/overview
 
 Progress
 --------
@@ -36,4 +36,13 @@ iface wlan0 inet dhcp
 - Turning pi0s on and off requires gpio support:
   - http://blog.hypriot.com/post/lets-get-physical/
   - http://wiringpi.com/download-and-install/
+
+##### Sun Sep 18 12:19:50 EDT 2016
+- hypriot can't bring up ethernet gadgets
+  - tried rebuilding the kernel, no luck. g_ether refused to load
+- switched to rasbian
+  - got ethernet gadget working
+- http://blog.hypriot.com/post/install-docker-on-chip-computer/
+- https://github.com/DieterReuter/arm-docker-fixes/blob/master/002-fix-install-docker-on-chip-computer/apply-fix-002.sh
+- https://github.com/RPi-Distro/pi-gen
 
