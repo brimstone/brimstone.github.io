@@ -45,4 +45,5 @@ iface wlan0 inet dhcp
 - http://blog.hypriot.com/post/install-docker-on-chip-computer/
 - https://github.com/DieterReuter/arm-docker-fixes/blob/master/002-fix-install-docker-on-chip-computer/apply-fix-002.sh
 - https://github.com/RPi-Distro/pi-gen
-
+- https://easypi.herokuapp.com/kubernetes-on-raspberry-pi/
+- pi-gen seems to build an img, ready to be written to a microsd card. will test later.
