@@ -47,3 +47,20 @@ iface wlan0 inet dhcp
 - https://github.com/RPi-Distro/pi-gen
 - https://easypi.herokuapp.com/kubernetes-on-raspberry-pi/
 - pi-gen seems to build an img, ready to be written to a microsd card. will test later.
+
+##### Mon Sep 19 21:57:49 EDT 2016
+- pi-gen firmware worked. There's still some tweaks to be made:
+- docker group
+- configure usb0
+  - http://flnkr.com/2016/03/identify-your-raspberry-pi-version/
+	auto usb0
+	iface usb0 inet static
+		address 192.168.0.2
+		netmask 255.255.255.0
+		gateway 192.168.0.1
+		dns-nameservers 10.42.0.1
+- configure config.txt
+- configure cmdline.txt
+- add bridge utils
+- no sleep thing in /etc/issues
+
