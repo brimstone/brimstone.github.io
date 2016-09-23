@@ -6,14 +6,13 @@ This project is about a clusterhat, strapped to a raspberry pi 3, strapped to a 
 
 Hardware:
 
-- Raspberry Pi 3
-- Raspberry Pi 0 (4x)
-- Raspberry Touchscreen
-- Pimonori stand
-- Clusterhat
-- Adafruit standoffs
-- Pimonori microusb Y splitter
-- Pimonori raspberry powersupply
+- [Raspberry Pi 3](https://shop.pimoroni.com/products/raspberry-pi-3)
+- [Raspberry Pi 0](https://shop.pimoroni.com/products/raspberry-pi-zero) (4x)
+- [Raspberry Touchscreen](https://shop.pimoroni.com/products/raspberry-pi-7-touchscreen-display-with-frame)
+- [Clusterhat](https://shop.pimoroni.com/products/cluster-hat)
+- [Adafruit standoffs]()
+- [Pimonori microusb Y splitter](https://shop.pimoroni.com/products/split-microb-usb-power-cable)
+- [Pimonori raspberry powersupply](https://shop.pimoroni.com/products/raspberry-pi-universal-power-supply)
 
 Software:
 
@@ -64,3 +63,9 @@ iface wlan0 inet dhcp
 - add bridge utils
 - no sleep thing in /etc/issues
 
+##### Thu Sep 22 19:53:55 EDT 2016
+- pi-gen is progressing nicely
+- network config for the pi3 and pi0 in testing
+- to turn on pi0 3: `docker run --rm --cap-add SYS_RAWIO --device /dev/mem hypriot/rpi-gpio write 24 1`
+- pi-gen image boots on pi3 and pi0s
+- pi-gen image pushed to github: https://github.com/brimstone/pi-gen
