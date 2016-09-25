@@ -69,3 +69,11 @@ iface wlan0 inet dhcp
 - to turn on pi0 3: `docker run --rm --cap-add SYS_RAWIO --device /dev/mem hypriot/rpi-gpio write 24 1`
 - pi-gen image boots on pi3 and pi0s
 - pi-gen image pushed to github: https://github.com/brimstone/pi-gen
+
+##### Sat Sep 24 13:44:07 EDT 2016
+- trying to get X working in docker
+- http://www.joshh.info/2016/01/running-x-server-inside-docker-container.html
+- https://www.raspberrypi.org/forums/viewtopic.php?f=41&t=21020
+- This is a FT5406 memory based driver screen
+- https://www.raspberrypi.org/documentation/hardware/display/troubleshooting.md
+- look for `/dev/input/by-id/\*kbd` to point to the right `/dev/input/event*`
