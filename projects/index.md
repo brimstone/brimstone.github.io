@@ -4,3 +4,4 @@
 [preview:3](projects/pentesting/index.md)
 [preview:3](projects/picluster/index.md)
 [preview:3](projects/shellcode/index.md)
+[preview:3](projects/solar/index.md)
