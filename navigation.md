@@ -8,6 +8,7 @@
   * [Pentesting](projects/pentesting/index.md)
   * [Pi Cluster](projects/picluster/index.md)
   * [Journeys in shellcode](projects/shellcode/index.md)
+  * [Home Solar](projects/solar/index.md)
 
 [Blog]()
 
@@ -30,6 +31,7 @@
   * [Devopsdaysatl](events/2016/04/devopsdaysatl.md)
   * [Dockercon 2016](events/2016/06/dockercon16.md)
   * [Hope XI](events/2016/07/hope.xi.md)
+  * [Hack 4](events/2016/12/hack4.md)
 
 [Trips]()
 
