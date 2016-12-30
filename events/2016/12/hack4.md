@@ -38,3 +38,18 @@ https://exploitpack.com
   - have to learn their framework
 - Exploit Pack is all about some java
 
+
+Desperately Seeking Ashley
+--------------------------
+Finux
+
+- Indexed Ashley Madison and LinkedIn data into Elasticsearch
+- EJK: Elasticsearch JQ Kibana
+- Analyze, Edit, Insert, Repeat (cuz you fkked it up)
+- "It's been 0 days since sed saved me"
+- "Friends don't let friends use dynamic-mapping"
+- use nginx for authentication and whatnot
+- https://twitter.com/DEVOPS_BORAT/status/288698056470315008
+- AM & AFF -> date of birth -> "which sign is most likely to cheat?"
+- Companies should know which emails have been used in these leaks and pay extra attention to those users.
+- Received an anonymous dump of user/pass. Looked for names of websites in the passwords, bingo.
