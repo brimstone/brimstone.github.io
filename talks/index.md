@@ -1,4 +1,5 @@
 [preview:3](dc404-show-n-tell-2016-10.md)
+[preview:3](docker-tips.md)
 [preview:3](dockercon16.md)
 [preview:3](go-le-score.md)
 [preview:3](hope.xi.md)
