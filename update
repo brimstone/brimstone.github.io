@@ -87,7 +87,7 @@ cd talks
 for atalk in *.md; do \
 	title=$(head -n 1 "$atalk")
 	echo "  * [$title](talks/$atalk)" >> ../navigation.md
-	echo "[preview:3]($atalk)" >> index.md
+	echo "[preview:3](talks/$atalk)" >> index.md
 done
 )
 echo "" >> navigation.md
