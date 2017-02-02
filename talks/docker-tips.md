@@ -1,5 +1,5 @@
 Docker Tips & Tricks
-====================
+--------------------
 Matt
 
 [@brimston3](https://twitter.com/brimston3)
