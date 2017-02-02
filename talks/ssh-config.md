@@ -90,6 +90,19 @@ $ ssh-add -D
 
 
 
+IdentityFile
+------------
+Use a different ssh key for a connection.
+```
+Host *
+	IdentityFile ~/.ssh/id_rsa_otherkey
+```
+```
+$ ssh -i ~/.ssh/id_rsa_otherkey
+```
+
+
+
 ForwardAgent
 ------------
 Allow a host to use your client's ssh agent
