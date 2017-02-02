@@ -161,6 +161,10 @@ Host *
 	ProxyCommand /usr/bin/nc -X connect -x 192.168.0.2:8080 %h %p
 ```
 ```
+Host *
+	ProxyCommand ssh bastion -W %h:%p
+```
+```
 $ ssh backend
 ```
 
