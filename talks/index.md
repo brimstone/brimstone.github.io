@@ -5,3 +5,4 @@
 [preview:3](talks/hope.xi.md)
 [preview:3](talks/ipfs-intro.md)
 [preview:3](talks/musl-go.md)
+[preview:3](talks/ssh-config.md)

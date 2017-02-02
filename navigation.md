@@ -46,5 +46,6 @@
   * [HOPE XI](talks/hope.xi.md)
   * [Introduction to IPFS](talks/ipfs-intro.md)
   * [Truly Static Binaries with Go](talks/musl-go.md)
+  * [SSH Config](talks/ssh-config.md)
 
 [gimmick:theme](readable)
