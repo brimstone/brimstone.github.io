@@ -1,4 +1,5 @@
 [preview:3](projects/ctf/index.md)
+[preview:3](projects/homeautomation/index.md)
 [preview:3](projects/infovent/index.md)
 [preview:3](projects/kvstore/index.md)
 [preview:3](projects/pentesting/index.md)

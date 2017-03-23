@@ -3,6 +3,7 @@
 [Projects]()
 
   * [CTF](projects/ctf/index.md)
+  * [Home Automation](projects/homeautomation/index.md)
   * [Information Radiator](projects/infovent/index.md)
   * [Key/Value Store](projects/kvstore/index.md)
   * [Pentesting](projects/pentesting/index.md)
