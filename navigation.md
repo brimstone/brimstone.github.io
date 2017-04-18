@@ -33,6 +33,7 @@
   * [Dockercon 2016](events/2016/06/dockercon16.md)
   * [Hope XI](events/2016/07/hope.xi.md)
   * [Hack 4](events/2016/12/hack4.md)
+  * [Dockercon](events/2017/04/dockercon.md)
 
 [Trips]()
 
