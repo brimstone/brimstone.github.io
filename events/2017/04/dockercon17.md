@@ -89,7 +89,7 @@ Finnian Anderson http://finnian.io/blog
 
 What's new
 ----------
-Victor
+Victor Vieux
 
 - New version number
   - stable quarterly releases
@@ -197,4 +197,102 @@ OCI Standards panel
 > "Much like the HTML spec doesn't define best practices for writing good webpages, the OCI spec doesn't define best practices for building good container images."
 
 - Security is out of scope for OCI
+
+
+
+General Session Day #2
+----------------------
+- teaser about the logo
+- Day 2 is about Docker in the Enterprise
+- ETR Survey shows Docker has super
+- Visa devs deploy to prod on day one
+- Demos and segments are very business oriented
+
+
+Lightning Unikernels
+--------------------
+Michael Bright
+
+- why? Only features you need, better for security and performance
+- can boot in 100s of ms
+- use cases: NFE (Telco Cloud)
+- implenteations: clean slate or legacy
+- Legacy OSv for Go; Rumprun/LKL for Ruby, Go, and Python; Ultibo for rpi
+- MirageOS: `make configure -t (unix|ukvm)` then just ./ the binary
+
+
+It takes a village
+------------------
+Jeff Lindsay @progrium
+
+- pretty neat, docker containers behind ssh-aaS
+- `ssh cmd.io http`
+- released an ssh server library
+- https://github.com/gliderlabs/ssh
+
+
+From Zero to Docker Hackathon Winner
+------------------------------------
+Jimena Tapia @tapiajimena, Marcos
+
+- Met docker via a personal project
+- Whaleprint lets you know and see what will happen when you deploy to Swarm
+- Focus on an MVP in the hackathon
+- Take the final user into account
+- Make you thing easy to understand
+
+
+Plugins
+-------
+Nandhini Santhanam, Tibor Vass
+
+- Plugins first class in 17.03
+- Auth, Volume, Logging, IPAM, Network
+- Demo building sshfs plugin
+- plugins implement something like docker.volumedriver/1.0
+- debug `tail /var/log/docker.log | grep plugin=`
+- Plugins are containers. They run under containerd and runc.
+- plugins listen on a socket in /run/docker/plugins
+- [Go helper library](https://github.com/docker/go-plugins-helpers/volume)
+- `docker plugin create`, then `docker plugin push`
+
+
+From ARM to Z
+-------------
+Christy Perez, Chris Jones tophj-ibm
+
+- s390x/ubuntu, aarch64/ubuntu
+- https://hub.docker.com/u/multiarch
+- https://github.com/multiarch/qemu-user-static/releases
+- in Go build tags, spaces are ORs, commas are ANDs
+- estesp/manifest-tool, docker PR #27455
+- `docker manifest push -f multi.yaml`
+
+
+Cloud Native Future
+-------------------
+Panel
+
+- members: Kubernetes, Prometheus, OpenTracing
+- https://www.cncf.io
+- OpenTracing allows you to view every point of code and infra a request touches
+- Twitter coined [Googwin](http://www.urbandictionary.com/define.php?term=Googwin)
+- containerd uses grpc and has a prometheus endpoint
+- survey of the room, prod scheduler: k8s, swarm, nomad, mesos
+- OpenTracing is working on RabbitMQ support
+- 
+
+
+Moby's Cool Hacks
+-----------------
+
+Marcos, Linus? sherloq.io
+- Showing off play-with-docker.com
+- export PWD_URL, `docker-machine -d pwd`
+- The UCP works with play-with-docker.com too
+- They do Swarm in Swarm
+
+Alex Ellis
+- get-faas.com
+- Functions-as-a-Service
 - 
