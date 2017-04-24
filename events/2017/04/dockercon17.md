@@ -1,5 +1,5 @@
-Dockercon
--------------
+Dockercon 17
+------------
 ######Tue Apr 18 2017
 
 Note: <a href="slides.html?events/2017/04/dockercon17.md#!">View this as slides</a>
@@ -280,7 +280,6 @@ Panel
 - containerd uses grpc and has a prometheus endpoint
 - survey of the room, prod scheduler: k8s, swarm, nomad, mesos
 - OpenTracing is working on RabbitMQ support
-- 
 
 
 Moby's Cool Hacks
@@ -336,7 +335,7 @@ Infrakit
 - they want to integrate with k8s better
 
 Infinit
-- an aquisition at the end of 2016
+- an acquisition at the end of 2016
 - storage platform
 - a K/V store allowing for object store and popular storage API abstractions
 - closed source, for now
@@ -347,7 +346,7 @@ MirageOS
 - announcing MirageSDK
 - SDK supports OCaml, next rust, later webassembly, never C
 - first DHCP client, next NTP client
-- demo the dhcp client is storing lease information in a git repo on disk for the privilaged container to parse and affect change on the kernel
+- demo the dhcp client is storing lease information in a git repo on disk for the privileged container to parse and affect change on the kernel
 
 
 LinuxKit BoaF
@@ -356,7 +355,7 @@ LinuxKit BoaF
 - LinuxKit is just a library of components
 - the `moby` build tool needs to move out of linuxkit/linuxkit
 - `moby` will eventually produce the `docker` packages
-- no good ISO9660 lin for go, so they use a container for mkisofs
+- no good ISO9660 lib for go, so they use a container for mkisofs
 
 
 
@@ -394,12 +393,12 @@ NYC organizers
 
 - tools:
   - google forms for surveys and talk suggestions and speaker sign up
-  - keep checking commnity repo and labs
+  - keep checking community repo and labs
   - they email out reminders about meetups
 - keep asking for sponsors, mentors, speakers
 - scratch other meetups and get them to scratch yours
 - co-meetups seem to help grow membership the best
-- ask new speakers for an abstract or the whole slide deck to make sure they're educatun focused and not product focused
+- ask new speakers for an abstract or the whole slide deck to make sure they're education focused and not product focused
 - get product presentations to present use cases
 - ask sponsors from similar meetup groups
 
@@ -417,7 +416,7 @@ Patty GirlDevelopIt
 - Encourage women speakers
   - Impostor syndrome
   - assist in dry-run, review content, and constructive feedback
-  - create list of previos talks/videos
+  - create list of previous talks/videos
   - suggestions for talk topics
 - how to reach out as a man:
   - Karen can help introduce to girldevelopit in your area
@@ -428,4 +427,3 @@ Community Code of Conduct
 - mention coc at the start of meetups
 - make sure people know how to contact you to report
 - we don't need permission to eject or ban a member
-- 
