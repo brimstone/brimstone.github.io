@@ -286,13 +286,146 @@ Panel
 Moby's Cool Hacks
 -----------------
 
-Marcos, Linus? sherloq.io
+Marcos Niles @marcosnils, Jonathan Leibiusky @xetorthio, sherloq.io
 - Showing off play-with-docker.com
 - export PWD_URL, `docker-machine -d pwd`
 - The UCP works with play-with-docker.com too
 - They do Swarm in Swarm
 
-Alex Ellis
+Alex Ellis @alexellisuk
 - get-faas.com
 - Functions-as-a-Service
+
+
+
+Moby Project Summit
+-------------------
+
+Intro & General Q&A
+- Clarifying role of containerd, by Docker, for CNCF
+- Docker was used as a component in other systems. Containerd should be used instead.
+- People has asked to work on the project without working on the product
+- Docker is moving projects out of the company and under the moby org until they're split off completely into their own org.
+- docker is built with moby
+- `docker` is moving back to github.com/docker/cli soon
+- `docker` defaults to pulling from the hub. `containerd` has no default
+- `moby` is a build tool for bootable systems or services like docker
+- They're not completely committed to Go now that components are breaking out. Ocaml and Rust are also mentioned for systems things
+- gRPC will allow for more automated tooling. They're working out how to switch the Docker HTTP API to gRPC
+
+containerd progress
+- super short
+
+SwarmKit progress
+- Today, SwarmKit ->  docker engine -> containerd. Soon, removing docker engine
+- new generic runtime: ask for 10 units and a plugin will handle creating each one
+- SwarmKit is gRPC heavy too
+
+LibNetworking progress
+- want to integrate with containerd more too
+
+Notary progress
+- something about securing files from the layers after they've been extracted
+- sounds like notary is moving to moby
+
+Infrakit
+- seems to compete directly with terraform
+- hope to have a stable API by 1.0
+- stuff is moving/changing very fast
+- dunno if they're moving under moby
+- they want to integrate with k8s better
+
+Infinit
+- an aquisition at the end of 2016
+- storage platform
+- a K/V store allowing for object store and popular storage API abstractions
+- closed source, for now
+- doesn't use moby, has their own build system: drake
+
+MirageOS
+- version 3.0 is much nicer
+- announcing MirageSDK
+- SDK supports OCaml, next rust, later webassembly, never C
+- first DHCP client, next NTP client
+- demo the dhcp client is storing lease information in a git repo on disk for the privilaged container to parse and affect change on the kernel
+
+
+LinuxKit BoaF
+-------------
+
+- LinuxKit is just a library of components
+- the `moby` build tool needs to move out of linuxkit/linuxkit
+- `moby` will eventually produce the `docker` packages
+- no good ISO9660 lin for go, so they use a container for mkisofs
+
+
+
+Organizer Summit
+----------------
+- pushing the Docker in Higher Ed program
+- Students get 1 node and 5 private repos in Docker Cloud for a year
+- The Mentor program is much more established now
+- Mentor summit was recorded
+- A small percent of mentors show up to meetup events, trying to fix that
+- Organizers can be mentors, expected to be advanced to expert level
+
+
+Play with docker
+----------------
+- training is a jekyll github page under fanela org
+- tutorials are super slick
+- there is an SDK you can embed n any site
+- can be run locally with `docker-compose up`
+- lots of discussion about problems and feature requests
+
+
+Organizer date
+--------------
+- new city centric page off docker.com
+  - list of captains, organizers, and mentors
+  - possible renaming of Organizers
+- mascot! Octopus, dolphin balancing things, seal
+- the captain seagull doesn't have a name
+
+
+Meetup Tips
+-----------
+NYC organizers
+
+- tools:
+  - google forms for surveys and talk suggestions and speaker sign up
+  - keep checking commnity repo and labs
+  - they email out reminders about meetups
+- keep asking for sponsors, mentors, speakers
+- scratch other meetups and get them to scratch yours
+- co-meetups seem to help grow membership the best
+- ask new speakers for an abstract or the whole slide deck to make sure they're educatun focused and not product focused
+- get product presentations to present use cases
+- ask sponsors from similar meetup groups
+
+Welcoming women to your meetup
+------------------------------
+Patty GirlDevelopIt
+
+- Code of Conduct, don't just check it off a list
+  - make it easy to report misconduct
+  - don't relay on victims reporting
+  - everyone must be aware
+- First Impressions
+- Reach out to new members
+- Introduce new members to others
+- Encourage women speakers
+  - Impostor syndrome
+  - assist in dry-run, review content, and constructive feedback
+  - create list of previos talks/videos
+  - suggestions for talk topics
+- how to reach out as a man:
+  - Karen can help introduce to girldevelopit in your area
+
+
+Community Code of Conduct
+-------------------------
+- mention coc at the start of meetups
+- make sure people know how to contact you to report
+- we don't need permission to eject or ban a member
 - 
