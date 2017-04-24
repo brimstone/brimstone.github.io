@@ -44,6 +44,7 @@
   * [DC404 Show 'n Tell](talks/dc404-show-n-tell-2016-10.md)
   * [Docker Tips & Tricks](talks/docker-tips.md)
   * [Dockercon16](talks/dockercon16.md)
+  * [Dockercon17](talks/dockercon17.md)
   * [Go, Let's Encrypt, and the Perfect Score](talks/go-le-score.md)
   * [HOPE XI](talks/hope.xi.md)
   * [Introduction to IPFS](talks/ipfs-intro.md)

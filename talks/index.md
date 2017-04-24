@@ -1,6 +1,7 @@
 [preview:3](talks/dc404-show-n-tell-2016-10.md)
 [preview:3](talks/docker-tips.md)
 [preview:3](talks/dockercon16.md)
+[preview:3](talks/dockercon17.md)
 [preview:3](talks/go-le-score.md)
 [preview:3](talks/hope.xi.md)
 [preview:3](talks/ipfs-intro.md)
