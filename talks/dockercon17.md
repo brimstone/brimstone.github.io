@@ -2,8 +2,16 @@ Dockercon17
 -----------
 Matt, Ben, Drew, Randall
 
+https://brimstone.github.io
 
-About the conference and location
+Note: <a href="slides.html?talks/dockercon17.md#!">View this as slides</a>
+
+
+General
+-------
+
+- Austin, TX
+- April 18-20, 2017
 - ~5,000 attendees
 - ~1,000(20%) women
 
