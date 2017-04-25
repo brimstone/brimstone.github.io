@@ -50,3 +50,14 @@ New Docker Features
 Talks worth watching
 --------------------
 
+
+Moby's cool hacks
+-----------------
+
+[Video](https://www.youtube.com/watch?v=-h2VTE9WnZs)
+- New features in Play With Docker
+- [Functions as a service](http://getfaas.com)
+
+Note: - PWD is really slick
+- demo http://traning.play-with-docker.com
+- Faas is kinda like Lamndas + API Gateway
