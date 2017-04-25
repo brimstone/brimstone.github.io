@@ -35,6 +35,16 @@ Moby is a project which provides a “Lego set” of dozens of components, the f
 Note: https://mobyproject.org/#moby-and-docker
 
 
+Use cases for Moby
+------------------
+- linuxkit VM for Hyper-V
+- docker deb and rpm
+- projects like RancherOS
+- docker-ee builds
+
+Note: docker-ee can include more specific `help` commands that don't make sense in -ce
+
+
 ![](dockercon17/moby-project-1.jpg)
 
 
