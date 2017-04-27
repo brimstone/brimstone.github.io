@@ -18,6 +18,15 @@ General
 Note: - https://twitter.com/solomonstre/status/854692761613852674
 
 
+[Slides](http://www.slideshare.net/docker) and [Videos](https://www.youtube.com/playlist?list=PLkA60AVN3hh_nihZ1mh6cO3n-uMdF7UlV) online soon.
+
+
+Moby Mingle
+-----------
+- TODO
+
+
+
 
 Announcements
 -------------
@@ -57,6 +66,15 @@ Use cases for Moby
 - docker-ee builds
 
 Note: docker-ee can include more specific `help` commands that don't make sense in -ce
+
+
+Moby TL;DR
+----------
+- The Docker Community Edition will still be free.
+- Docker is now a consumer of code in the Moby Project, which is open source.
+- The Docker CLI is not going away and will not being renamed moby. The moby CLI is used to manage components of the Moby Project.
+
+Note: https://blog.codeship.com/dockercon-2017-recap/
 
 
 Linuxkit
