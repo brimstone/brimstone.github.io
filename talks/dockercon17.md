@@ -283,6 +283,53 @@ Note: - From IBM, so their usecase is big iron
 - Allows me to build and test images for my rpi on my laptop
 - Allows me to deploy images to a rpi/x64 hybrid swarm
 
+Building Effective Images
+-------------------------
+Abby Fuller, AWS
+
+- How do Layers work? 
+  - Layer overview
+  - Reducing number of layers
+  - Cache rules everything around me
+  - Choose the right base
+- Dockerfiles: The Good, the Bad, and the Bloated
+  - Combine RUNs if you can
+  - Do as much as you can in a single RUN block
+  - Minimize switching USERs
+  - Cleanup when you're done
+- Language-specific
+  - Where possible, use 2 image - one to build an artifact and one from base
+  - GoLang:
+    - Compile, THEN copy binary
+    - Use `FROM scratch`
+  - Ruby
+    - Official images for Ruby are huge. A new base plus a little extra work pays off
+  - NodeJS
+    - .dockerignore npm-debug. Seriously.
+    - Cache your node_modules (i.e. only run `npm install` if package.json changes
+    - Use the new build stages
+- Other Stuff
+  - `docker image prune -a` or go even further with `docker system prune -a`
+  - Cleanup anything you can, whenever you can
+
+Troubleshooting Tips from a Docker Engineer
+-------------------------------------------
+Jeff Anderson, Developer Support @ Docker
+
+- Characterization - define the problem
+- Hypothesis - propose a solution
+- Test & Observe
+
+Note: -Some more detail on specific scenarios:
+  - Volumes
+  - Networking
+  - TLS
+- Advanced Troubleshooting Tools
+  - socat
+  - curl
+  - jq
+  - Regular networking tools (iptables, ipvsadm, route, ip, arp, tcpdump, ifconfig)
+  - nsenter (https://github.com/jpetazzo/nsenter)
 
 Moby Project Summit
 -------------------
