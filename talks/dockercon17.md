@@ -163,7 +163,7 @@ Build Args in tags (17.05)
 
 ```
 $ cat Dockerfile
-BUILD ARG GO_VERSION=latest
+ARG GO_VERSION=latest
 
 FROM golang:${GO_VERSION} AS builder
 
@@ -217,7 +217,7 @@ Moby's cool hacks
 - [Functions as a service](http://getfaas.com)
 
 Note: - PWD is really slick
-- demo http://traning.play-with-docker.com
+- demo http://training.play-with-docker.com
 - Faas is kinda like Lamndas + API Gateway
 
 
