@@ -15,7 +15,7 @@ General
 - ~5,000 attendees
 - ~1,000(20%) women
 
-Note: - https://twitter.com/solomonstre/status/854692761613852674
+Note: - Credit: https://twitter.com/solomonstre/status/854692761613852674
 
 
 [Slides](http://www.slideshare.net/docker) and [Videos](https://www.youtube.com/playlist?list=PLkA60AVN3hh_nihZ1mh6cO3n-uMdF7UlV) online soon.
@@ -40,22 +40,18 @@ Moby Project
 
 Docker is, and will remain, a open source product that lets you build, ship and run containers. It is staying exactly the same from a user’s perspective. Users can download Docker from the docker.com website.
 
-Note: https://mobyproject.org/#moby-and-docker
+Note: Credit: https://mobyproject.org/#moby-and-docker
 
 
 Moby is a project which provides a “Lego set” of dozens of components, the framework for assembling them into custom container-based systems, and a place for all container enthusiasts to experiment and exchange ideas.
 
-Note: https://mobyproject.org/#moby-and-docker
+Note: Credit: https://mobyproject.org/#moby-and-docker
 
 
-![](dockercon17/moby-project-1.jpg)
+![](dockercon17/moby-docker-diagram.jpg)
 
-Note: https://twitter.com/solomonstre/status/855918630915133440
-
-
-![](dockercon17/moby-project-2.jpg)
-
-Note: https://twitter.com/solomonstre/status/855918630915133440
+Note: - Credit: https://twitter.com/solomonstre/status/855918630915133440
+Credit: Docker Weekly #183: April 26th, 2017
 
 
 Use cases for Moby
@@ -74,7 +70,7 @@ Moby TL;DR
 - Docker is now a consumer of code in the Moby Project, which is open source.
 - The Docker CLI is not going away and will not being renamed moby. The moby CLI is used to manage components of the Moby Project.
 
-Note: https://blog.codeship.com/dockercon-2017-recap/
+Note: Credit: https://blog.codeship.com/dockercon-2017-recap/
 
 
 Linuxkit
@@ -118,7 +114,7 @@ outputs:
 - format: kernel+initrd
 ```
 
-Note: https://github.com/linuxkit/linuxkit/blob/master/examples/redis-os.yml
+Note: Credit: https://github.com/linuxkit/linuxkit/blob/master/examples/redis-os.yml
 
 
 
@@ -236,7 +232,7 @@ Moby's cool hacks
 
 Note: - PWD is really slick
 - demo http://training.play-with-docker.com
-- Faas is kinda like Lamndas + API Gateway
+- Faas is kinda like Lambdas + API Gateway
 
 
 What have namespaces done for you today?
