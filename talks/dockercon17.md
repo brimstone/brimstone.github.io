@@ -339,6 +339,19 @@ Note: -Some more detail on specific scenarios:
   - nsenter (https://github.com/jpetazzo/nsenter)
 
 
+Container Performance Analysis 
+-------------------------------------------
+Brendan Gregg, Netflix
+
+- Good overview of the tools and approaches to profiling containers
+- Dense reference material in slides
+- USE method: (utilization, saturation, errors)
+- useful flowchart for understanding cpu bottlenecks on containers (including cpu share)
+
+Slides: https://www.slideshare.net/brendangregg/container-performance-analysis
+Video: https://www.youtube.com/watch?v=bK9A5ODIgac
+
+
 Moby Project Summit
 -------------------
 - General Q&A about moby project
