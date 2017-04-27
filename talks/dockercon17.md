@@ -349,6 +349,7 @@ Brendan Gregg, Netflix
 - useful flowchart for understanding cpu bottlenecks on containers (including cpu share)
 
 Slides: https://www.slideshare.net/brendangregg/container-performance-analysis
+
 Video: https://www.youtube.com/watch?v=bK9A5ODIgac
 
 
