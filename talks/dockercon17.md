@@ -23,7 +23,8 @@ Note: - Credit: https://twitter.com/solomonstre/status/854692761613852674
 
 Moby Mingle
 -----------
-- TODO
+- One-on-few peer directed 
+- Attendees can offer or request mingles with other attendees
 
 
 
