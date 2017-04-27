@@ -62,6 +62,7 @@ Note: docker-ee can include more specific `help` commands that don't make sense 
 Linuxkit
 --------
 A toolkit for building secure, portable and lean operating systems for containers.
+
 https://github.com/linuxkit/linuxkit
 
 
@@ -102,14 +103,110 @@ outputs:
 Note: https://github.com/linuxkit/linuxkit/blob/master/examples/redis-os.yml
 
 
+
 New Docker Features
 -------------------
 
+Given by Victor Vieux
+
+Note: Quick Highlights follow
+
+
+Version Change
+--------------
+1.13 -> 17.03
+
+![](dockercon17/versions.png)
+
+Note: - The next release after 1.13 is 17.03, note YY.MM, just like ubuntu
+- This allows for regular monthly releases and cuts out scrambling to get features into the next release.
+- Enterprise Edition will allow for extended support and the usual.
+
+
+Data management commands (17.03)
+--------------------------------
+`docker system df`
+
+`docker system prune`
+
+Note: Use these to clean up space wasted by useless layers
+
+
+Multi-stage builds (17.05)
+--------------------------
+
+```
+$ cat Dockerfile
+FROM golang:1.8 AS builder
+
+COPY . /go/src/app
+
+RUN go get -d -v
+
+RUN go install -v
+
+FROM scratch
+
+COPY --from=builder /app /app
+
+CMD ["/app"]
+
+```
+
+Note: - This is a huge savings for final images
+- Multiple stages allowed, some examples of `base`, `dependences`, `test` and then final stages
+- Other examples of how this is awesome: https://codefresh.io/blog/node_docker_multistage/
+
+
+Build Args in tags (17.05)
+--------------------------
+
+```
+$ cat Dockerfile
+BUILD ARG GO_VERSION=latest
+
+FROM golang:${GO_VERSION} AS builder
+
+COPY . /go/src/app
+
+RUN go get -d -v
+
+RUN go install -v
+
+FROM scratch
+
+COPY --from=builder /app /app
+
+CMD ["/app"]
+
+```
+
+```
+$ docker build -t <repo>:<tag> --build-arg GO_VERSION=1.7 .
+```
+
+Note: Also fantastic
+
+
+Swarm Service Features (17.04)
+----------------------
+- Commands can be synchronous with `--detach=false`
+- Rollback options during failed deploys
+  - pause (default)
+  - continue
+  - rollback
 
 
 
 Talks worth watching
 --------------------
+
+
+General Sessions
+----------------
+
+- Day 1: Features and demos
+- Day 2: Enterprise-focused
 
 
 Moby's cool hacks
@@ -122,3 +219,60 @@ Moby's cool hacks
 Note: - PWD is really slick
 - demo http://traning.play-with-docker.com
 - Faas is kinda like Lamndas + API Gateway
+
+
+What have namespaces done for you today?
+----------------------------------------
+Liz Rice
+
+- Builds a container from scratch
+- Uses namespaces and cgroups
+- Not difficult to understand
+- Watch this demo
+
+
+It takes a village
+------------------
+Jeff Lindsay
+
+- Talks about open source communities
+- Shell Scripts As A Service
+```
+$ echo '
+#!cmd alpine bash curl jq
+#!/bin/bash
+curl -s "${1}" | jq -r "${2}"
+' | ssh cmd.io :create http
+```
+```
+$ ssh cmd.io http ipinfo.io .ip
+184.73.99.3
+```
+
+- webhooks, etc
+
+Note: - Super cool idea
+- Not completely sold on the usefulness
+- Seems more dev like than production
+
+
+From ARM to Z
+-------------
+Christy Perez, Chris Jones
+
+- demo building multi-arch images with go
+- demo running a multi-arch image in a multi-arch swarm
+- Docker for X can run images for different archs today!
+
+Note: - From IBM, so their usecase is big iron
+- Also a cool concept
+- Allows me to build and test images for my rpi on my laptop
+- Allows me to deploy images to a rpi/x64 hybrid swarm
+
+
+Moby Project Summit
+-------------------
+- General Q&A about moby project
+- Discussion about CNCF
+- Progress updates from each component, containerd, swarmkit, libnetwork, notary, infrakit, infinit, Mirageos
+- Recorded, worth watching to know more
