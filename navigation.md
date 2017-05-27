@@ -54,6 +54,7 @@
 [CTFs]()
 
   * [fristileaks](ctfs/fristileaks/index.md)
+  * [Kioptrix Level 1](ctfs/kioptrix-1/index.md)
   * [pwnlab](ctfs/pwnlab/index.md)
 
 [gimmick:theme](readable)
