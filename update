@@ -86,10 +86,24 @@ rm talks/index.md
 cd talks
 for atalk in *.md; do \
 	title=$(head -n 1 "$atalk")
+	echo "Updating $atalk"
 	echo "  * [$title](talks/$atalk)" >> ../navigation.md
 	echo "[preview:3](talks/$atalk)" >> index.md
 done
 )
+echo "" >> navigation.md
+
+echo "[CTFs]()" >> navigation.md
+echo "" >> navigation.md
+rm ctfs/index.md
+find ctfs -name index.md \
+| sort \
+| while read actf; do
+	title=$(head -n 1 "$actf")
+	echo "Updating $actf"
+	echo "  * [$title]($actf)" >> navigation.md
+	echo "[preview:3]($actf)" >> ctfs/index.md
+done
 echo "" >> navigation.md
 
 echo "[gimmick:theme](readable)" >> navigation.md

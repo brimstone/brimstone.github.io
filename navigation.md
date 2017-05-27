@@ -51,4 +51,9 @@
   * [Truly Static Binaries with Go](talks/musl-go.md)
   * [SSH Config](talks/ssh-config.md)
 
+[CTFs]()
+
+  * [fristileaks](ctfs/fristileaks/index.md)
+  * [pwnlab](ctfs/pwnlab/index.md)
+
 [gimmick:theme](readable)
