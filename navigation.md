@@ -49,6 +49,7 @@
   * [HOPE XI](talks/hope.xi.md)
   * [Introduction to IPFS](talks/ipfs-intro.md)
   * [Truly Static Binaries with Go](talks/musl-go.md)
+  * [Regex Isn't Scary](talks/regex-isnt-scary.md)
   * [SSH Config](talks/ssh-config.md)
 
 [CTFs]()
