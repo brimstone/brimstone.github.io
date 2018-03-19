@@ -9,7 +9,7 @@ https://ipfs.io
 
 http://blog.in.the.narro.ws
 
-QmRYdsLqqMCUfAskVKapk296yRTmvJ4CKi5SumihH8gmj2
+QmNMeyFjRboUynJJMQ5GPbbGNNEbG6b8L484w9jgdaSCAN
 
 <div style="clear: both"></div>
 
@@ -96,7 +96,7 @@ Note: - You can see how the parent nodes point at the child nodes they contain.
 
 Multihash
 ---------
-https://github.com/jbenet/multihash
+https://github.com/multiformats/multihash
 
 ```
 <1-byte hash func code><1-byte digest size in bytes><hash func output>
@@ -139,7 +139,7 @@ Installation
 ------------
 
 - Prebuilt binaries
-  - https://gobuilder.me/github.com/ipfs/go-ipfs/cmd/ipfs?branch=release
+  - http://dist.ipfs.io/#go-ipfs
 - From source
 
 ```
@@ -251,7 +251,7 @@ Note: - This took place inside a directory called ipfs, but I added "."
 Retrieving a directory with a browser
 -------------------------------------
 
-http://localhost:8080/ipfs/QmSPBPzYX1XaKFZG6BkcAwmUyNxqN3yW9MnMzQBCi3Qsup 
+http://localhost:8080/ipfs/QmSPBPzYX1XaKFZG6BkcAwmUyNxqN3yW9MnMzQBCi3Qsup
 
 
 
@@ -338,11 +338,11 @@ dnslink
 
 ```
 ;; ANSWER SECTION:
-blog.in.the.narro.ws.	300	IN	TXT	"dnslink=/ipns/QmRYdsLqqMCUfAskVKapk296yRTmvJ4CKi5SumihH8gmj2"
+_dnslink.blog.in.the.narro.ws.	300	IN	TXT	"dnslink=/ipns/QmRYdsLqqMCUfAskVKapk296yRTmvJ4CKi5SumihH8gmj2"
 ```
 
 Note: - dnslink allows an ipfs or ipns multihash to be stored in a TXT record. How cool is that?
-- newer versions allow for a `_dnslink` subdomain, so the parent domain can be a CNAME.
+- current versions allow for a `_dnslink` subdomain, so the parent domain can be a CNAME.
 
 
 
@@ -409,4 +409,4 @@ Matt - @brimston3
 
 http://blog.in.the.narro.ws
 
-QmRYdsLqqMCUfAskVKapk296yRTmvJ4CKi5SumihH8gmj2
+QmNMeyFjRboUynJJMQ5GPbbGNNEbG6b8L484w9jgdaSCAN
