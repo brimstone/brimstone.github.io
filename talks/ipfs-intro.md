@@ -358,7 +358,7 @@ This presentation
 -----------------
 
 Note: - Yes, you can view this presentation itself over IPFS
-- http://localhost:8080/ipns/QmRYdsLqqMCUfAskVKapk296yRTmvJ4CKi5SumihH8gmj2/slides.html?talks/ipfs-intro.md#/9
+- http://localhost:8080/ipns/QmNMeyFjRboUynJJMQ5GPbbGNNEbG6b8L484w9jgdaSCAN/slides.html?talks/ipfs-intro.md#/9
 
 
 
@@ -395,6 +395,17 @@ https://ipfs.io/ipfs/QmUftM9MnmDrTGUZDXuexd9atArKEzSqQYjQP5Xt3oCvwx/exportedsite
 
 Note: - Several datastores of example content are listed here.
 - The developers use this as a store of random content.
+
+
+
+Uncensorable Wikipedia
+----------------------
+
+https://ipfs.io/blog/24-uncensorable-wikipedia/
+
+https://ipfs.io/ipfs/QmXoypizjW3WknFiJnKLwHCnL72vedxjQkDDP1mXWo6uco
+
+Note: First turkish, now English and Kurdish
 
 
 
