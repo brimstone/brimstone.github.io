@@ -48,6 +48,7 @@
   * [Go, Let's Encrypt, and the Perfect Score](talks/go-le-score.md)
   * [HOPE XI](talks/hope.xi.md)
   * [Introduction to IPFS](talks/ipfs-intro.md)
+  * [GNU Make: A 42 year old build tool](talks/make.md)
   * [Truly Static Binaries with Go](talks/musl-go.md)
   * [Regex Isn't Scary](talks/regex-isnt-scary.md)
   * [SSH Config](talks/ssh-config.md)
