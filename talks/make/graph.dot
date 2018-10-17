@@ -1,0 +1,4 @@
+digraph {
+	"hello.c" -> "hello"
+	"hello.h" -> "hello"
+}

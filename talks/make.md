@@ -62,8 +62,13 @@ Note: - Can be described as a dependency graph.
   since last time.
 
 
-Derivatives
------------
+Graph
+-----
+![](make/graph.png)
+
+
+Popular Derivatives
+-------------------
 1. GNU Make (gmake)
 2. BSD Make (pmake)
 
@@ -75,32 +80,52 @@ Note: - Most popular is gmake
 
 Manual Online
 -------------
-- https://www.gnu.org/software/make/manual/
+https://www.gnu.org/software/make/manual/
 
 
 Makefiles
 ---------
-- Named `Makefile`
+- Conventionally named `Makefile`
 - Plaintext
 - Whitespace significant files
 - Declaritive
+
+Note: - Also, `makefile` and a few other names work.
+- Don't need to be executable
+- Don't need a #! line at the top
 
 
 Basic Syntax
 ------------
 ```
+[variable] = [value]
+
 [target]: [components…]
-[tab][command 1
+[tab][command 1]
       …
 [tab][command n]
 ```
 
+Note: - Variables first, then targets
+- rules for each target must be indented with a single tab.
+
 
 Basic Example
 -------------
+Makefile:
 ```
 hello: hello.c
     gcc -o hello hello.c
+```
+
+Terminal:
+```
+$ ls
+hello.c Makefile
+$ make
+gcc -o hello hello.c
+$ ls
+hello hello.c Makefile
 ```
 
 Results in a `hello` binary from the `hello.c` source file.
@@ -114,10 +139,11 @@ Note: - Does everyone understand this gcc syntax?
 
 Conventions
 -----------
+- Variables at the top
 - `.DEFAULT_GOAL` or first target is default
 - Default target is usually `all`
 - `build` may also build things
-- `clean` target cleans up everything that was built
+- `clean` target cleans up everything that `all` did
 - `distclean` restores to fresh checkout or uncompress
 
 
@@ -153,10 +179,17 @@ uninstall:
 ```
 
 Note: - There's a lot going on in this example
+- assignment
+  - `=` direct assignment
+  - `?=` assignment if unassigned, easy to overwrite with environment variables
+- .`PHONY` Ignore the artifact and always process this target
 - [Automatic Variables]
   - $@: target name
   - $<: first prerequisite
   - $^: All prerequisites
+- Rule prefixes
+  - `-` ignores failures, pretends it passes
+  - `@` hides the output
 [Automatic Variables]: https://www.gnu.org/software/make/manual/html_node/Automatic-Variables.html
 
 
@@ -227,3 +260,22 @@ BINS := $(foreach C,$(COMPONENTLIST),$(foreach O,$(OSARCHLIST),$C_$O))
 binaries: ${BINS}
 ```
 
+
+entr
+----
+
+_run arbitrary commands when files change_
+
+```
+watch:
+	find . -type f | entr make build
+```
+
+Note: I love entr.
+- Can be installed with apt, probably brew.
+- Now my files are rebuilt when their source changes, automagically.
+
+
+Hugo
+----
+TODO
