@@ -5,6 +5,7 @@
 [preview:3](talks/go-le-score.md)
 [preview:3](talks/hope.xi.md)
 [preview:3](talks/ipfs-intro.md)
+[preview:3](talks/make.md)
 [preview:3](talks/musl-go.md)
 [preview:3](talks/regex-isnt-scary.md)
 [preview:3](talks/ssh-config.md)

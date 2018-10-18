@@ -54,12 +54,16 @@ Notable Early Features
 
 How make Works
 --------------
+### Interfaces
+1. Makefiles
+2. `make` command
+
+### General Model
 1. Compare modification times of dependencies
 2. Run only needed commands to rebuild artifacts
 
 Note: - Can be described as a dependency graph.
-- Build a graph of dependencies, then only rebuild what's changed in the graph
-  since last time.
+- Build a graph of dependencies, then only rebuild what's changed in the graph.
 
 
 Graph
@@ -75,6 +79,7 @@ Popular Derivatives
 Note: - Most popular is gmake
 - pmake is popular on BSD systems
 - Always more on [wikipedia][make-derivatives]
+- There is a native build of gmake for windows, and gmake works under WSL
 [make-derivatives]: https://en.wikipedia.org/wiki/Make_(software)#Derivatives
 
 
@@ -98,7 +103,7 @@ Note: - Also, `makefile` and a few other names work.
 Basic Syntax
 ------------
 ```
-[variable] = [value]
+[variable] := [value]
 
 [target]: [components…]
 [tab][command 1]
@@ -140,31 +145,32 @@ Note: - Does everyone understand this gcc syntax?
 Conventions
 -----------
 - Variables at the top
-- `.DEFAULT_GOAL` or first target is default
 - Default target is usually `all`
-- `build` may also build things
-- `clean` target cleans up everything that `all` did
-- `distclean` restores to fresh checkout or uncompress
+- `.DEFAULT_GOAL` or first target is default
+- `build`: may also build things
+- `install`: copies compiled artifacts into the system
+- `clean`: target cleans up everything that `all` did
+- `distclean`: restores to fresh checkout or uncompress
 
 
 Advanced Example
 ----------------
 ```
-include common.mk             # Another Makefile
-CC=gcc                        # Compiler
-CFLAGS=-I.                    # Compiler flags
-DEPS = hellomake.h            # Other dependancy
-OBJ = hellomake.o hellofunc.o # Interrum object files
-BINARY ?= hellomake           # Name of binary
-PREFIX ?= /usr/local          # Install location
+include common.mk              # Another Makefile
+CC := gcc                      # Compiler
+CFLAGS := -I.                  # Compiler flags
+DEPS := hellomake.h            # Other dependancy
+OBJ := hellomake.o hellofunc.o # Interrum object files
+BINARY ?= hellomake            # Name of binary
+PREFIX ?= /usr/local           # Install location
 
-.PHONY: all                   # All doesn't do anything
+.PHONY: all                    # All doesn't do anything
 all: $(BINARY)
 
-%.o: %.c $(DEPS)              # Wildcards match OBJs
+%.o: %.c $(DEPS)               # Wildcards match OBJs
 	$(CC) -c -o $@ $< $(CFLAGS)
 
-$(BINARY): $(OBJ)             # Variable target
+$(BINARY): $(OBJ)              # Variable target
 	$(CC) -o $@ $^ $(CFLAGS)
 
 .PHONY: install
@@ -175,22 +181,31 @@ install:
 uninstall:
 	@echo "Removing $(BINARY)"
 	-@rm $(PREFIX)/bin/$(BINARY) # Expected from install target
-	-@rm $(PREFIX/bin/hello      # Previous versions
+	-@rm $(PREFIX)/bin/hello      # Previous versions
 ```
 
-Note: - There's a lot going on in this example
-- assignment
-  - `=` direct assignment
-  - `?=` assignment if unassigned, easy to overwrite with environment variables
-- .`PHONY` Ignore the artifact and always process this target
-- [Automatic Variables]
-  - $@: target name
-  - $<: first prerequisite
-  - $^: All prerequisites
-- Rule prefixes
-  - `-` ignores failures, pretends it passes
-  - `@` hides the output
-[Automatic Variables]: https://www.gnu.org/software/make/manual/html_node/Automatic-Variables.html
+Note: There's a lot going on in this example
+
+
+### Assignment
+- "`:=`": direct assignment, once
+- "`?=`": assignment if unassigned, easy to overwrite with environment variables
+- "`=`": direct assignment, but with dynamic expansion, avoid it
+
+### .PHONY
+Ignore the artifact and always process this target
+
+
+### Automatic Variables
+- `$@`: target name
+- `$<`: first prerequisite
+- `$^`: All prerequisites
+
+### Rule prefixes
+- "`-`": ignores failures, pretends it passes
+- "`@`": hides the output
+
+Note: Bookmark this: https://www.gnu.org/software/make/manual/html_node/Automatic-Variables.html
 
 
 
@@ -201,7 +216,7 @@ Tricks
 Dynamic help
 ------------
 ```
-SHELL = /bin/bash
+SHELL := /bin/bash
 
 #HELP help Prints this help message.
 .PHONY: help
@@ -278,4 +293,25 @@ Note: I love entr.
 
 Hugo
 ----
-TODO
+
+```
+.PHONY: build
+build:
+	hugo
+
+.PHONY: deploy
+deploy:
+	rsync -Pa --delete public/ webserver:/var/www/
+```
+
+
+Pentesting
+----------
+```
+.PHONY: nmap
+nmap: $(SUBNET)/out.xml
+
+$(SUBNET)/out.xml:
+	@mkdir -p $(SUBNET)
+	nmap -sS -oA $(SUBNET)/out
+```
