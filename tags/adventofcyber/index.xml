@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>adventofcyber on brimstone's blog</title><link>/tags/adventofcyber/</link><description>Recent content in adventofcyber on brimstone's blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 01 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="/tags/adventofcyber/index.xml" rel="self" type="application/rss+xml"/><item><title>AdventOfCyber2</title><link>/projects/adventofcyber2/</link><pubDate>Tue, 01 Dec 2020 00:00:00 +0000</pubDate><guid>/projects/adventofcyber2/</guid><description>Advent Of Cyber This is a challege put on in December each year at https://tryhackme.com/room/adventofcyber2.
+Day 1 Name of the cookie? Use Firefox&amp;rsquo;s Inspector to see the cookies on the network request.
+Answer: auth
+What format is the cookie? Just know this, I suppose?
+Answer: hexadecimal
+Having decoded the cookie, what format is the data stored in? Again, just familiarity with computers. The give away is the {&amp;quot;&amp;quot;: &amp;quot;&amp;quot;} format.</description></item></channel></rss>

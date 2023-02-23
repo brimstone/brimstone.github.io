@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ctf on brimstone's blog</title><link>/tags/ctf/</link><description>Recent content in ctf on brimstone's blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 01 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="/tags/ctf/index.xml" rel="self" type="application/rss+xml"/><item><title>AdventOfCyber2</title><link>/projects/adventofcyber2/</link><pubDate>Tue, 01 Dec 2020 00:00:00 +0000</pubDate><guid>/projects/adventofcyber2/</guid><description>Advent Of Cyber This is a challege put on in December each year at https://tryhackme.com/room/adventofcyber2.
+Day 1 Name of the cookie? Use Firefox&amp;rsquo;s Inspector to see the cookies on the network request.
+Answer: auth
+What format is the cookie? Just know this, I suppose?
+Answer: hexadecimal
+Having decoded the cookie, what format is the data stored in? Again, just familiarity with computers. The give away is the {&amp;quot;&amp;quot;: &amp;quot;&amp;quot;} format.</description></item><item><title>covfefe</title><link>/projects/covfefe/</link><pubDate>Sat, 07 Apr 2018 00:00:00 +0000</pubDate><guid>/projects/covfefe/</guid><description>This system was setup with a host only network on virtualbox 5.2.
+Download from vulnhub or magnet
+Enumeration First nmap showed ports 22, 80, and 31337 open:
+root@sepha:/pentest# nmap -sS -A -n 192.168.56.101 Starting Nmap 7.70 ( https://nmap.org ) at 2018-04-06 20:19 UTC Nmap scan report for 192.168.56.101 Host is up (0.00066s latency). Not shown: 997 closed ports PORT STATE SERVICE VERSION 22/tcp open ssh OpenSSH 7.4p1 Debian 10 (protocol 2.</description></item><item><title>Mr. Robot</title><link>/projects/mr.-robot/</link><pubDate>Sat, 07 Apr 2018 00:00:00 +0000</pubDate><guid>/projects/mr.-robot/</guid><description>This system was setup with a host only network on virtualbox 5.2.
+Download from vulnhub or magnet
+Enumeration Started with nmap, basic settings:
+# nmap -sS --script vuln 192.168.56.101 -A Starting Nmap 7.70 ( https://nmap.org ) at 2018-04-07 23:19 UTC Pre-scan script results: |_broadcast-avahi-dos: ERROR: Script execution failed (use -d to debug) Nmap scan report for 192.168.56.101 Host is up (0.00084s latency). Not shown: 997 filtered ports PORT STATE SERVICE VERSION 22/tcp closed ssh 80/tcp open http Apache httpd | http-csrf: | Spidering limited to: maxdepth=3; maxpagecount=20; withinhost=192.</description></item><item><title>recon</title><link>/projects/recon/</link><pubDate>Sun, 21 Mar 2010 00:00:00 +0000</pubDate><guid>/projects/recon/</guid><description>This system was setup in a CTF with virtualbox 6.1.
+Download from vulnhub or magnet
+Services nmap shows port 80 is open and browsing port 80 with a web brower looks like wordpress is installed.
+wpscan shows authors:
+recon reconauthor Footholds wpwscan finds password:
+Username: reconauthor, Password: football7 The usual tricks of altering theme files and uploading malicious php code don&amp;rsquo;t seem to work without effort.
+After clicking around. There&amp;rsquo;s a vulnerable plugin: e-Learning.</description></item><item><title>VulnUni</title><link>/projects/vulnuni/</link><pubDate>Sun, 21 Mar 2010 00:00:00 +0000</pubDate><guid>/projects/vulnuni/</guid><description>This system was setup in a CTF with virtualbox 6.1.
+Download from vulnhub or magnet
+Services nmap shows that port 80 is open. I spidered the whole site with wget -r -np and found the following comments:
+192.168.5.4/courses.html: &amp;lt;!-- Disabled till new version is installed --&amp;gt; 192.168.5.4/courses.html: &amp;lt;!-- &amp;lt;li class=&amp;#34;nav-item&amp;#34;&amp;gt;&amp;lt;a href=&amp;#34;vulnuni-eclass-platform.html&amp;#34; class=&amp;#34;nav-link&amp;#34;&amp;gt;EClass Platform&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt; --&amp;gt; Footholds There&amp;rsquo;s a published exploit for this site on exploit-db: https://www.exploit-db.com/exploits/48106
+Using the information in the exploit.</description></item></channel></rss>
